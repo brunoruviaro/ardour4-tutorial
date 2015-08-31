@@ -22,12 +22,12 @@ see the Editor List, please note there are other tabs which change the
 function of this area. Before you Right-Click, make sure the **Regions**
 tab is selected.
 
-![Editor List]({{ site.url }}/images/Ardour3_RegionList_EditorList.png) 
+![Editor List]({{ site.url }}/images/Ardour4_RegionList_EditorList.png) 
 
 Once you have Right-Clicked, a menu will appear with the option to
 *Import to Region List*. Click this option.
 
-![Region List]({{ site.url }}/images/Ardour_Import_To_Region_List.png) 
+![Region List]({{ site.url }}/images/Ardour4_Import_To_Region_List.png) 
 
 You will now see the *Add existing media* dialog (note: a shortcut to
 get to this window is "*Ctrl*" + "*I*"). On the left side of this dialog
@@ -40,7 +40,7 @@ track. "*Add files to region list*" will simply import audio files into
 the Region List, without creating any new tracks. Choose this option
 now, as we don't want Ardour to create any tracks at this point.
 
-![Add Media]({{ site.url }}/images/Ardour3_Add_Existing_Media.png) 
+![Add Media]({{ site.url }}/images/Ardour4_Add_Existing_Media.png) 
 
 > TIP: if you do not have any suitable audio files on your hard drive to
 follow these steps, click on the "Search Freesound" tab (or visit
@@ -77,11 +77,9 @@ rate of the current Ardour session. This will cause the sound to play at
 the wrong speed and pitch.
 
 Once you have successfully embedded your audio file in the Region List,
-you will see it on the screen. In the screenshot below, "*toaster\_8*"
-is the name of the audio file, and the number \[2\] right after it
-indicates it is a stereo file. 
+you will see it on the screen. In the screenshot below, three files were imported: "*toaster\_8*", "*short-drone-mono*", and "*wheels-mono*". The number \[2\] right after "*toaster\_8*" indicates it is a stereo file. 
 
-![Toaster]({{ site.url }}/images/Ardour3_RegionListToaster.png) 
+![Toaster]({{ site.url }}/images/Ardour4_Region_List_Stereo_File.png) 
 
 By dragging and dropping the Region onto the Main Canvas, you can insert
 it in an existing track.
@@ -101,7 +99,7 @@ distinct left and right channels was dragged onto a Stereo Track and a
 Mono Track. Notice that in the Mono Track only the left channel is
 displayed (and played back).  
 
-![Stereo Mono]({{ site.url }}/images/Ardour3_StereoMonoComparison.png) 
+![Stereo Mono]({{ site.url }}/images/Ardour4_Stereo_Mono_Comparison.png) 
 
 
 ### Importing Audio Directly to a Track
@@ -113,7 +111,7 @@ Choose **Add files: as new tracks** in order to automatically create
 a new track and add the selected file to it. The track will be named
 after the sound file name. 
 
-![Add as New Tracks]({{ site.url }}/images/Ardour3_Add_As_New_Track.png) 
+![Add as New Tracks]({{ site.url }}/images/Ardour4_Add_As_New_Track.png) 
 
 If you have previously selected on or more tracks, the menu will display the
 additional option **Add files: to selected tracks** in order to add a sound
@@ -126,12 +124,10 @@ you should also specify where in the track you want the
 new Region to be placed. In the screenshot below, we are choosing
 "*session start*".
 
-![Insert At]({{ site.url }}/images/Ardour3_Insert_At.png) 
+![Insert At]({{ site.url }}/images/Ardour4_Insert_At.png) 
 
 The Region appears in a new track in the session. The new track
 automatically receives the name of the imported sound file.
-
-![Comparison]({{ site.url }}/images/Ardour3_StereoLRComparison.png) 
 
 The sound file will also appear in the Region List so that it can be
 inserted into other tracks as well (drag and drop).
