@@ -1,9 +1,9 @@
-title:            Ardour 3
+title:            Ardour 4
 description:      An updated version of the original FLOSS manual.
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 120
-url:              http://brunoruviaro.github.io/ardour3-floss-tutorial
+url:              http://brunoruviaro.github.io/ardour4-tutorial
 
 #http://localhost:4000 
 
@@ -11,14 +11,14 @@ url:              http://brunoruviaro.github.io/ardour3-floss-tutorial
 
 # Owner/author information
 owner:
-  name:           Ardour 3 Tutorial
+  name:           Ardour 4 Tutorial
   avatar:         ardour3-icon.png
   bio:            "An updated version of the original Ardour FLOSS Manual."
   email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         brunoruviaro/ardour3-floss-tutorial/
+  github:         brunoruviaro/ardour4-tutorial/
   stackexchange:  
   linkedin:       
   instagram:        
@@ -32,7 +32,7 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   #UA-2011187-5
+google_analytics:   UA-66949361-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
