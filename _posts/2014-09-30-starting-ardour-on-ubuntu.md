@@ -10,19 +10,16 @@ image:
   creditlink:  
 ---
 
-Now that JACK and Ardour are installed, and JACK has been successfully
-started, you can start up Ardour.
-
-Click on the Ardour icon to start the program.
+Assuming JACK is already running, click on the Ardour icon to start the program.
 
 On Ubuntu, you can find and launch software using the Dash. Tap the
 *"Super"* key (or *"Super" + "A"* to go directly to the Dash App Lens)
 and type Ardour. You can then click on the Ardour icon, or simply hit
 *Enter* when Ardour is the first search result:
 
-![Dash]({{ site.url }}/images/Ardour3_Ubuntu_Dash.png)
+![Dash]({{ site.url }}/images/Ardour4_Ubuntu_Dash.png)
 
-Click on **Ardour Digital Audio Workstation 3** and the program will
+Click on **Ardour Digital Audio Workstation 4** and the program will
 start.
 
 Once you have started Ardour, the **Session Control** window shows up.
@@ -33,7 +30,7 @@ Sessions** options. For now let's create a fresh session, so click on
 
 Name your new project and click **Open** .
 
-![New Session]({{ site.url }}/images/Ardour3_New_Session_Simple.png)
+![New Session]({{ site.url }}/images/Ardour4_New_Session_Simple.png)
 
 > TIP: Avoid using any characters other than letters and numbers when naming your session. Avoid white spaces, accented letters, !@#$%*()+, periods, commas, etc. Use dashes or underscores if you like. For example, instead of "My Great Session!", prefer "My_Great_Session", or "MyGreatSession", or "my-great-session". Instead of "Açaí", write "Acai" (without accented letters), etc. Once you have created your Ardour session, do **not** manually rename any folders or files that belong to the Session.
 
