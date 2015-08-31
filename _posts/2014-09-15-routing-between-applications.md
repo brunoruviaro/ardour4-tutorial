@@ -38,19 +38,18 @@ coming from your browser) into Ardour are:
 For this example, a new session was created with a new Stereo Track
 named "*Firefox*":
 
-![YouTube 1]({{ site.url }}/images/Ardour3_YouTube_1.png)
+![YouTube 1]({{ site.url }}/images/Ardour4_YouTube_1.png)
 
 Then we select the Track and click on the Inputs button on the Editor
-Mixer strip. In the screenshot above, it's the button that reads
-"*1/2*", just below the track name ("*Firefox*") in the Editor Mixer
-strip. We are presented with the Patchbay window specific to that
+Mixer strip. In the screenshot above, it's the button just below the track name ("*Firefox*") in the Editor Mixer
+strip (it shows only a "-" (dash)in the example above, meaning that there are no connections made yet). We are presented with the Patchbay window specific to that
 Track's inputs.
 
 First thing to do is to disconnect any microphone inputs from that track
 ("*system capture*"), if any. After disconnecting, this part of matrix
 for the "*Firefox*" Track should look like this (no green dots):
 
-![YT 2]({{ site.url }}/images/Ardour3_YouTube_2.png) 
+![YT 2]({{ site.url }}/images/Ardour4_YouTube_2.png) 
 
 Next step is to change tabs in this same window. Choose "*Other*" as the
 source. This is where you will find other running applications that can
@@ -60,7 +59,7 @@ appropriate empty squares to create connections (green dots) between
 "*front-left*" and "*front-right*" to the Left and Right inputs of the
 "*Firefox*" Track. It should eventually look like this: 
 
-![YT 3]({{ site.url }}/images/Ardour3_YouTube_3.png) 
+![YT 3]({{ site.url }}/images/Ardour4_YouTube_3.png) 
 
 Now you are ready to go. Simply follow the same recording procedures
 explained in the **Recording Audio** chapter: record-enable (arm) the
@@ -68,7 +67,7 @@ Track (small red circle on the track), arm Ardour to record (big red
 button; it starts blinking), then hit the Play button. Go back to your
 browser and start playing the YouTube video.
 
-![YT 4]({{ site.url }}/images/Ardour3_YouTube_4.png) 
+![YT 4]({{ site.url }}/images/Ardour4_YouTube_4.png) 
 
 ### From JACK-aware applications to Ardour
 
@@ -82,7 +81,7 @@ The procedure is essentially the same: create a Mono or Stereo Track to
 record the audio, set that Track's inputs to the desired source, and
 record as usual. 
 
-![Hydrogen]({{ site.url }}/images/Ardour3_Hydrogen.png) 
+![Hydrogen]({{ site.url }}/images/Ardour4_Hydrogen.png) 
 
 The screenshot above was taken while recording a drum pattern from
 Hydrogen directly into an Ardour track named "*from Hydrogen*".
