@@ -29,7 +29,7 @@ display the time in a number of formats: *Timecode*, *Bars:Beats*,
 *Minutes:Seconds* and *Samples*. Right-click to change the format of
 each of the two clocks.
 
-![Clock Units]({{ site.url }}/images/Ardour3_Clock_Units.png)
+![Clock Units]({{ site.url }}/images/Ardour4_Clock_Units.png)
 
 These are called the transport clocks. The left one is the primary
 transport clock and the right one is the secondary transport clock. The
@@ -50,7 +50,7 @@ They control the amount **Quantization** of the time grid, i.e., the
 amount of "snap" an audio **Region** has to the type of grid you have
 chosen.
 
-![Snap]({{ site.url }}/images/Ardour3_Snap_Options.png)
+![Snap]({{ site.url }}/images/Ardour4_Snap_Options_and_Nudge_Controls.png)
 
 When *No Grid* is selected, Regions may be moved freely around within
 the Tracks. When *Grid* is selected, Regions will "snap" to the nearest
@@ -68,7 +68,7 @@ The **Timeline** is located below the Snap Mode menus, just above the
 Main Canvas. By Right-Clicking on it, you can set the check boxes to
 display the different types of time information.
 
-![Timeline]({{ site.url }}/images/Ardour3_Overview_Rulers.png)
+![Timeline]({{ site.url }}/images/Ardour4_Overview_Rulers.png)
 
 ### Minutes/Seconds
 
@@ -95,7 +95,7 @@ fps** (Frames per Second). This can be found in the Timecode tab of the
 Session Properties window (menu *Session > Properties* or shortcut
 *"Alt"* + *"O"*)*.*
 
-![Timecode]({{ site.url }}/images/Ardour3_Timecode.png) 
+![Timecode]({{ site.url }}/images/Ardour4_Timecode.png) 
 
 Once you have done that, make sure you make the Timecode ruler visible
 by right-clicking in the Timeline and checking the *Timecode* box. You
