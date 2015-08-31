@@ -11,7 +11,7 @@ image:
 ---
 
 This tutorial provides a beginner's introduction to using Ardour for basic sound recording and editing
-tasks. It assumes you already have Ardour up and running on your computer.
+tasks. It assumes you already have Ardour up and running on your computer. Please note that this tutorial does not (yet) cover any MIDI functionality.
 
 For information on how to install Ardour on Linux and Mac OS X, please visit [https://ardour.org/requirements.html](https://ardour.org/requirements.html). If using Linux, distributions such as [KXStudio](http://kxstudio.sourceforge.net/) and [UbuntuStudio](http://ubuntustudio.org/) offer a wide selection of useful music software, including Ardour.
 
@@ -28,10 +28,10 @@ WORM in Rotterdam, the Netherlands, between 23 and 27 November 2009,
 with input and support from the international community of Ardour users
 and developers. The tutorial was originally written for Ardour 2.X versions. The original FLOSS manual can be found at [http://en.flossmanuals.net/ardour/](http://en.flossmanuals.net/ardour/).
 
-The present update of the tutorial was written for Ardour 3.5. The text has been updated where necessary, and all screenshots were replaced with newer ones (matching Ardour 3.5.403). This revision was made by Bruno Ruviaro in December 2014.
+In December 2014, the tutorial was updated for Ardour 3.5 and moved to GitHub. The text was completely revised, and screenshots were replaced with newer ones. In August 2015, a similar revision was made to update all screenshots and text to Ardour 4.2. The 2014 and 2015 revisions were made by Bruno Ruviaro.
 
 The Ardour community is invited to contribute content to this tutorial.
-All text and image files live in [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial), which makes it easy for anyone to fork, revise, and remix this text.
+All text and image files live in [https://github.com/brunoruviaro/ardour4-tutorial](https://github.com/brunoruviaro/ardour4-tutorial), which makes it easy for anyone to fork, revise, and remix this text.
 
 This FLOSS manual complements the Ardour reference manual currently
 under development by the Ardour community, which aims to provide an
