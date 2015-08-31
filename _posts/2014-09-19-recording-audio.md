@@ -20,7 +20,7 @@ for more details.
 This section will show you how to record audio from an external source
 (for example, a microphone) onto a track in Ardour.
 
-![Editor Mixer Input]({{ site.url }}/images/Ardour3_Editor_Mixer_Input.png) 
+![Editor Mixer Input]({{ site.url }}/images/Ardour4_Editor_Mixer_Input.png) 
 
 First, you should check that the proper inputs have been routed to the
 track you wish to record to.
@@ -40,7 +40,7 @@ In the next image you can see that the only input of this Mono Track is
 receiving signal from *system capture_1*. This normally means the first
 microphone input of your soundcard. 
 
-![Audio 1 input]({{ site.url }}/images/Ardour3_Audio_1_input.png) 
+![Audio 1 input]({{ site.url }}/images/Ardour4_Audio_1_input.png) 
 
 The tabs that you see displayed vertically on the left are available
 sources. "*Audio 1 in*" on the bottom right is the
@@ -74,7 +74,7 @@ Track, you can arm the Track to record by clicking on the small red icon
 on the horizontal track strip (not the big one in the Transport
 controls).
 
-![Arming Track]({{ site.url }}/images/Ardour3_Arming_The_Track.png) 
+![Arming Track]({{ site.url }}/images/Ardour4_Arming_The_Track.png) 
 
 When properly armed, the small red icon will remain
 highlighted, and you will be able to see the incoming signal by looking
@@ -95,7 +95,7 @@ To start recording, click on the Play button in the Transport menu, or
 press the space bar of your computer keyboard. Clicking the Play button
 again (or pressing the space bar) will stop recording.
 
-![Recording]({{ site.url }}/images/Ardour3_Recording.png) 
+![Recording]({{ site.url }}/images/Ardour4_Recording.png) 
 
 While recording, the armed Track will capture the sounds from the input.
 Any existing sound on other tracks will play normally during the
@@ -113,11 +113,9 @@ The audio in the screenshot below was recorded too loud and produced
 **Clipping** (in other words, the signal recorded was outside the bounds
 of what could be represented digitally), which results in a loss of
 information and audible distortion. The clipped peaks in the waveform
-are marked in red, and the **Peak Meter** in the Editor Mixer strip has
-registered a maximum signal level of 1.0 Decibels over the limit of zero
-Decibels.
+are marked in red.
 
-![Clipping]({{ site.url }}/images/Ardour3_Clipping.png) 
+![Clipping]({{ site.url }}/images/Ardour4_Clipping.png) 
 
 The best and easiest way to avoid Clipping is have some control over the
 volume of the incoming audio signal before it gets to the sound card.
@@ -149,7 +147,7 @@ Track where it was recorded, with different takes being automatically
 numbered. In the screenshot below, "*Audio 1-1*" and "*Audio 1-2*"
 represent two different recordings made on a track named "*Audio 1*". 
 
-![Region List Rec]({{ site.url }}/images/Ardour3_RegionList_Recording.png)
+![Region List Rec]({{ site.url }}/images/Ardour4_RegionList_Recording.png)
 
 You might want to plan ahead and organize your recording Session by
 giving appropriate names to different tracks. For example, a Track used
@@ -161,7 +159,7 @@ default generic names, such as "Audio 1".
 To rename a Track, just double-click on its name (before you arm the track to
 record) and type in the new name.
 
-![Rename Track]({{ site.url }}/images/Ardour3_Rename_Track.png) 
+![Rename Track]({{ site.url }}/images/Ardour4_Rename_Track.png) 
 
 > TIP: Did we mention how important it is to **save your work often?** Hit "Control" + "S" right now. Get in the habit of hitting "Control" + "S" every few minutes.
 
