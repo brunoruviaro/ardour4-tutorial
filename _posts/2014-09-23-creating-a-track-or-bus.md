@@ -23,7 +23,7 @@ horizontal strip areas marked "*Audio 1*" and "*Audio 2*" are Tracks.
 The rectangle containing audio information (named "*some-sound*") inside
 track *Audio 1* is called a Region. 
 
-![Tracks]({{ site.url }}/images/Ardour3_Tracks.png) 
+![Tracks]({{ site.url }}/images/Ardour4_Tracks.png) 
 
 What is a Bus? 
 ----------------
@@ -60,7 +60,7 @@ Right-Click in the empty area beneath any existing Tracks and Busses.
 Alternatively, click on the menu *Track > Add Track/Bus* (shortcut
 "*Ctrl*" + "*Shift*" + "*N*"). The following window will appear:
 
-![Add Track]({{ site.url }}/images/Ardour3_Add_Track_or_Bus.png) 
+![Add Track]({{ site.url }}/images/Ardour4_Add_Track_or_Bus.png) 
 
 **Add** lets you specify how many Tracks (or Busses) you would to like
 to create.
