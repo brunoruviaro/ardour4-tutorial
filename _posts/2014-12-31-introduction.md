@@ -19,7 +19,7 @@ editing with unlimited undo, and anything-to-anywhere signal routing. It
 supports standard file formats, such as BWF, WAV, WAV64, AIFF and CAF,
 and it can use LADSPA, LV2, VST and AudioUnit plugin formats.
 
-Ardour runs on Linux and Mac OS X (for Windows, read [this](http://ardour.org/windows.html)), and uses the **Jack Audio Connection
+Ardour runs on Linux and Mac OS X (for Windows, read [this](http://ardour.org/windows.html)), and optionally uses the **Jack Audio Connection
 Kit** (**JACK**) to interface with the computer's sound card, as well as
 with other audio applications running on the same system.
 
