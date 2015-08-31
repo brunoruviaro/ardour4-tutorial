@@ -33,6 +33,8 @@ Normally, we measure Frequency in **Hertz** (Hz) and Amplitude in
 
 ![speaker]({{ site.url }}/images/Ardour3_Digital_Audio_2.png)
 
+Check out the great animation on this page illustrating this process: http://animagraffs.com/loudspeaker/
+
 A microphone works like a loudspeaker in reverse: vibrations in the air
 cause its membrane to vibrate. The microphone turns these acoustic
 vibrations into an electrical current. If you plug this microphone into
