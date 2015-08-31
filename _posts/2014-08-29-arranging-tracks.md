@@ -32,7 +32,7 @@ but Ardour also has a handy **Search Freesound** feature built into the import
 window. From there, you can search and download Freesound.org samples
 directly.
 
-![Freesound]({{ site.url }}/images/Ardour3_Freesound.png) 
+![Freesound]({{ site.url }}/images/Ardour4_Freesound.png) 
 
 In the screenshot above, we searched for "*Nord Drum BD*" using the
 **Search Freesound** feature of Ardour. Note that we specify that the
@@ -45,7 +45,7 @@ After importing a few more sounds (one snare, one hi-hat, and one clap),
 our session looks like this (track names come from the original sample
 name from freesound.org):
 
-![FS2]({{ site.url }}/images/Ardour3_Freesound_2.png) 
+![FS2]({{ site.url }}/images/Ardour4_Freesound_2.png) 
 
 Organizing the Tracks
 ---------------------
@@ -53,14 +53,14 @@ Organizing the Tracks
 Now we rename the tracks so we can quickly see the location of each
 instrument (double-click on the track name to edit it).
 
-![FS3]({{ site.url }}/images/Ardour3_Freesound_3.png) 
+![FS3]({{ site.url }}/images/Ardour4_Freesound_3.png) 
 
 You may also wish to rearrange the order of the tracks from top to
 bottom in the editor window. Do that by clicking the **Tracks &
 Busses** tab at the far right of the Editor Window and drag-and-dropping
 the tracks in the order you want.
 
-![FS4]({{ site.url }}/images/Ardour3_Freesound_4.png) 
+![FS4]({{ site.url }}/images/Ardour4_Freesound_4.png) 
 
 >Tip: you can also use the V check boxes in this tab to view or hide
 Tracks in the Main Canvas.
@@ -68,7 +68,7 @@ Tracks in the Main Canvas.
 Here we have ordered the drumkit so that the kick drum is on the bottom,
 the snare and high hat are in the middle, and the clap is on top.  
 
-![FS6]({{ site.url }}/images/Ardour3_Freesound_6.png) 
+![FS6]({{ site.url }}/images/Ardour4_Freesound_5.png) 
 
 Continuing
 ----------
