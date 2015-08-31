@@ -23,7 +23,7 @@ the **Editor Window**. The Editor Window is the most important window in
 Ardour, as this is how you will control the program as well as see and
 edit the audio you have recorded or imported.
 
-![Empty Session]({{ site.url }}/images/Ardour3_Empty_Session.png)
+![Empty Session]({{ site.url }}/images/Ardour4_Empty_Session.png)
 
 At the top of the Editor Window are several main areas: the **Transport
 Menu**, the **Clocks**, the **Edit** **Modes/Cursor Modes** menu, the
@@ -41,7 +41,7 @@ extensively in dedicated chapters later on.
 
 ### Transport Menu
 
-![Transport Menu]({{ site.url }}/images/Ardour3_Transport_Menu.png)
+![Transport Menu]({{ site.url }}/images/Ardour4_Transport_Menu.png)
 
 The **Transport Menu** controls include the following buttons:
 
@@ -58,7 +58,7 @@ The **Transport Menu** controls include the following buttons:
 
 ### Clocks
 
-![Clocks]({{ site.url }}/images/Ardour3_Clocks.png) 
+![Clocks]({{ site.url }}/images/Ardour4_Clocks.png) 
  
 
 The main **Clocks** are located next to the transport controls. Clocks
@@ -73,7 +73,7 @@ Clocks.
 
 ### Edit Modes and Cursor Modes
 
-![Edit Modes]({{ site.url }}/images/Ardour3_Edit_Modes_Cursor_Modes.png) 
+![Edit Modes]({{ site.url }}/images/Ardour4_Edit_Modes_Cursor_Modes.png) 
 
 The **Edit Modes** and **Cursor Modes** controls define the behavior of
 the main canvas and the different functions the cursor can have. There
@@ -101,7 +101,7 @@ lower half.
 
 ### Snap Options
 
-![Snap]({{ site.url }}/images/Ardour3_Snap_Options_and_Nudge_Controls.png) 
+![Snap]({{ site.url }}/images/Ardour4_Snap_Options_and_Nudge_Controls.png) 
 
 The **Snap Options** menu controls the **Grid**, **Grid Points** and
 **Edit Point**. Please see the chapters on **Setting Up the Meter**,
@@ -109,7 +109,7 @@ The **Snap Options** menu controls the **Grid**, **Grid Points** and
 
 ### Zoom Options
 
-![Zoom Options]({{ site.url }}/images/Ardour3_Zoom_Options.png) 
+![Zoom Options]({{ site.url }}/images/Ardour4_Zoom_Options.png) 
 
 In between **Cursor Modes** and **Snap Options** are the **Zoom
 Options**. Here you can define the behavior of zooming operations. You
@@ -155,7 +155,7 @@ don't need in order to save screen space. More information on these
 operations can be found in the **Setting up the Timeline** and **Setting
 up the Meter** chapters.
 
-![Ardour Overview Rulers]({{ site.url }}/images/Ardour3_Overview_Rulers.png)
+![Ardour Overview Rulers]({{ site.url }}/images/Ardour4_Overview_Rulers.png)
 
 ### Tracks and Busses
 
@@ -166,7 +166,7 @@ represents an audio file with a drawing of its waveform. More
 information on Tracks and Busses can be found in the **Creating a Track
 or Bus** chapter. 
 
-![Ardour Track]({{ site.url }}/images/Ardour3_Track.png) 
+![Ardour Track]({{ site.url }}/images/Ardour4_Track.png) 
 
 ### Editor Mixer
 
@@ -177,7 +177,7 @@ corresponds. You can toggle to view or hide the Editor Mixer by clicking
 on the menu *View* > *Show Editor Mixer* (shortcut *"Shift"* + *"E"*).
 This Mixer is covered in the **Using the Mixer Strip** chapter.
 
-![Editor Mixer]({{ site.url }}/images/Ardour3_Editor_Mixer.png)
+![Editor Mixer]({{ site.url }}/images/Ardour4_Editor_Mixer.png)
 
 ### Regions, Tracks/Busses, Snapshots, Groups, Ranges, Marks
 
@@ -192,7 +192,7 @@ information on Regions can be found in the **Working With Regions**
 chapter. The Tracks tab is covered in the **Arranging Tracks** chapter,
 and Snapshots are discussed in the **Saving Snapshots** chapter.
 
-![Region List]({{ site.url }}/images/Ardour3_Region_List.png) 
+![Region List]({{ site.url }}/images/Ardour4_Region_List.png) 
 
 Mixer Window Controls
 ---------------------
@@ -200,7 +200,7 @@ Mixer Window Controls
 The second window, the **Mixer Window**, can be viewed by going to the
 main menu and clicking *Window > Show Mixer*.
 
-![Mixer Window]({{ site.url }}/images/Ardour3_Mixer_Window_1.png) 
+![Mixer Window]({{ site.url }}/images/Ardour4_Mixer_Window_1.png) 
 
 The main function of the Mixer Window is to display all the Mixer Strips
 for the various Tracks side by side for easy reference. This window is
@@ -208,7 +208,7 @@ mainly used during the **Mixing** process, and it also provides access
 **Plugins** and other **Routing** features. See the chapters on
 **Understanding Routing**, **Mixing** and **Using Plugins** for details.
 
-![Mixer Window]({{ site.url }}/images/Ardour3_Mixer_Window_2.png) 
+![Mixer Window]({{ site.url }}/images/Ardour4_Mixer_Window_2.png) 
 
 This window also contains a listing of the available Mixer Strips in the
 upper left hand corner. The check boxes in this area can be used to view
@@ -228,7 +228,7 @@ Most of the major menus in the Editor Window can be detached from the
 Editor Window by clicking the white, downwards pointing arrow on the far
 right-hand side of that menu.
 
-![Zoom Options]({{ site.url }}/images/Ardour3_Zoom_Options.png)
+![Zoom Options]({{ site.url }}/images/Ardour4_Zoom_Options.png)
 
 The detached menu will become a separate window on your screen, which
 can be reattached to the Editor Window by clicking the white,
