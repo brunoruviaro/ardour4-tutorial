@@ -12,7 +12,7 @@ url:              http://brunoruviaro.github.io/ardour4-tutorial
 # Owner/author information
 owner:
   name:           Ardour 4 Tutorial
-  avatar:         ardour3-icon.png
+  avatar:         ardour-icon.png
   bio:            "An updated version of the original Ardour FLOSS Manual."
   email:          
   # Social networking links used in footer. Update and remove as you like.
