@@ -10,7 +10,9 @@ image:
   creditlink:  
 ---
 
-Ardour runs in conjunction with the JACK Audio Connection Kit. JACK is an audio system which manages connections between Ardour and the soundcard of your computer, and between Ardour and other JACK-enabled audio programs on your computer. You must install Jack OS X before you can use Ardour.
+Ardour 4.X no longer requires that you have JACK (the JACK Audio Connection Kit) installed on your system. But you may want to have JACK available so that Ardour can share audio and MIDI with other Linux audio applications. If you are wondering just what on earth JACK is then take a look here: http://ardour.org/jack
+
+In a nutshell, JACK is an audio system which manages connections between Ardour and the soundcard of your computer, and between Ardour and other JACK-enabled audio programs on your computer. Ardour used to require JACK in order to run, but since version 4.0 this is optional.
 
 More info on JACK: [http://jackaudio.org/](http://jackaudio.org/) and [http://jackosx.com/](http://jackosx.com/).
 
