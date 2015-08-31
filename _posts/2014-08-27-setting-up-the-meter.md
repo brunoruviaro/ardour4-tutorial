@@ -18,9 +18,9 @@ sound samples we use to some extent. So it is important to be able to
 set up the Meter before we continue.
 
 To see the meter-related timelines for our session, we can right-click
-anywhere in the Timeline and check the following options: **Meter**, **Bars & Beats**, and **Tempo**.
+anywhere in the "header" of the Rulers and check the following options: **Meter**, **Bars & Beats**, and **Tempo**.
 
-![Meter]({{ site.url }}/images/Ardour3_Meter_Timeline.png) 
+![Meter]({{ site.url }}/images/Ardour4_Meter_Timeline.png) 
 
 It is possible to set a **Meter** and **Tempo** for the entire Ardour
 session, as well as to change them at different points in the same
@@ -28,7 +28,7 @@ session. In order to do this, locate the Meter section of the **Timeline
 Bar** in the Editor Window, and right-click on the first small red mark
 to open the **Meter Dialog**.
 
-![Meter dialog]({{ site.url }}/images/Ardour3_Edit_Meter_dialog.png) 
+![Meter dialog]({{ site.url }}/images/Ardour4_Edit_Meter_dialog.png) 
 
 Here you can enter new values for the **Beats Per Bar** as well as the
 **Note Value**. Click "*Apply*" to apply the changes globally to your
