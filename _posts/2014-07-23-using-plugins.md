@@ -27,7 +27,7 @@ also be plugins used for effects or as instruments, as well as sends or
 inserts which affect signal routing. The arrangement of processors is
 arbitrary, and there is no limit to how many there can be.
 
-![mixer strip 2]({{ site.url }}/images/Ardour3_Mixer_Strip_2.png) 
+![mixer strip 2]({{ site.url }}/images/Ardour4_Mixer_Strip_2.png) 
  
 The main space shown in the screenshot above is the **Processor Box**.
 The blue box Fader is in fact a **Processor** that comes by default
@@ -44,30 +44,30 @@ Plugins can be added by right-clicking in the Processor Box of the Track
 or Bus. A menu of options is presented. From the menu, new processors
 can be inserted. 
 
-![plugins1]({{ site.url }}/images/Ardour3_Plugins_1.png) 
+![plugins1]({{ site.url }}/images/Ardour4_Plugins_1.png) 
 
 The Plugin Manager is a convenient way to browse and choose plugins:
 
-![plugins2]({{ site.url }}/images/Ardour3_Plugins_2.png)
+![plugins2]({{ site.url }}/images/Ardour4_Plugins_2.png)
 
 From the Plugin Manager, you can search them by Name, Type, or other
 search parameters available from the drop-down menu. For example, we
 will add the reverb plugin called "Freeverb":
 
-![plugins3]({{ site.url }}/images/Ardour3_Plugins_4.png)
+![plugins3]({{ site.url }}/images/Ardour4_Plugins_3.png)
 
 Once selected, click "*Add*" and the plugin will show up in the bottom
 list of "Plugins to be connected". Then click "*Insert Plugin(s)*" and
 they will show up in the Processor Box.
 
-![plugins reverb]({{ site.url }}/images/Ardour3_Plugins_Freeverb.png)
+![plugins reverb]({{ site.url }}/images/Ardour4_Plugins_Freeverb.png)
 
 ## Editing Plugin Parameters
 
 Double-click a Plugin to edit its parameters. In this example, we double
 click the "Freeverb" green box and get this window:
 
-![freeverb settings]({{ site.url }}/images/Ardour3_Plugin_Freeverb_Settings.png) 
+![freeverb settings]({{ site.url }}/images/Ardour4_Plugin_Freeverb_Settings.png) 
 
 Here you can control reverb parameters such as Room Size, Damping,
 amount of Wet and Dry signal, and Width. The effect will apply to all
@@ -81,7 +81,7 @@ This turns the Plugin off and allows the signal to pass by it
 unaffected. This is useful when you want to compare how a track sounds
 with and without the plugin. 
 
-![bypass]({{ site.url }}/images/Ardour3_Plugins_Bypass.png) 
+![bypass]({{ site.url }}/images/Ardour4_Plugins_Bypass.png) 
 
 Bypassed Plugins are shown greyed out and with the "LED" turned off. 
 
