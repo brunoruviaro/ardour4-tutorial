@@ -72,11 +72,11 @@ and have it immediately played back. Playback stops at the end of the
 Region. When this Cursor Mode is selected, your cursor pointer will look
 like a small loudspeaker icon.
 
-> TIP: quickly audition a selected Region with the shortcut "*H*".
+> TIP: you can also quickly audition a selected Region without leaving the Grab Mode. Simply select a Region and hit the shortcut key "*H*".
 
 ### **Draw Mode (shortcut D)**
 
-Use this mode to draw gain automation points. Cursor looks like a pencil.
+Use this mode to draw gain automation points. Cursor looks like a pencil. Automation will be discussed in detail in the chapter [Using Automation](../using-automation).
 
 You can also *edit* individual points in this mode if you bring your cursor right on top of the automation point you want to move (mouse will turn into a small cross). However, if you are not precise this may accidentally create a new automation point. If this becomes a problem, you should use the next Mode, which only allows for editing existing points, not creating new ones.
 
