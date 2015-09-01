@@ -47,7 +47,7 @@ Plugins**.
 In this example, we have created a Mono Bus called "*DRUMS*", and added
 the "*Freeverb*" Reverb LADSPA Plugin to the bus.
 
-![sends1]({{ site.url }}/images/Ardour3_Sends_1.png) 
+![sends1]({{ site.url }}/images/Ardour4_Sends_1.png) 
 
 ### Bus inputs
 
@@ -65,7 +65,7 @@ sure that the Bus outputs are Routed to the Master Bus, as shown below
 Also, open the Plugin Window (double click on the Freeverb rectangle) and set the Plugin's signal mix to 1.0 Wet
 Level and 0.0 Dry Level. 
 
-![sends3]({{ site.url }}/images/Ardour3_Sends_3.png) 
+![sends3]({{ site.url }}/images/Ardour4_Sends_3.png) 
 
 This ensures that the Bus carries all of the processed signal (the 'Wet'
 signal) from the Plugin, and none of the unprocessed signal (the 'Dry'
@@ -73,7 +73,7 @@ signal) to the Master Bus. Remember, the unprocessed, 'clean' signals
 are still available from their original tracks, so there is no need to
 duplicate them in this Bus.
 
-## Creating and Routing Sends 
+## Creating and Routing Sends
 
 Now we can create Sends in the other Tracks and route them to the Bus
 inputs.
@@ -82,11 +82,11 @@ Like Plugins, Sends are also created in the Processor Box. Go to each of
 your drum tracks, right-click in empty space of the Processor Box, and create a *New Aux
 Send* directed to the appropriate Bus (in our case, named DRUMS). 
 
-![sends4]({{ site.url }}/images/Ardour3_Sends_4.png) 
+![sends4]({{ site.url }}/images/Ardour4_Sends_4.png) 
 
 You should now see the Send displayed in the Processor Box:
 
-![postfader]({{ site.url }}/images/Ardour3_Post-Fader_Send.png) 
+![postfader]({{ site.url }}/images/Ardour4_Post-Fader_Send.png) 
 
 The little "*Send*" slider you see just below the green rectangle is the Send Fader, which 
 controls how much sound will be sent from this Track to the Bus.
@@ -100,7 +100,7 @@ Send Fader.
 In a *Pre*-Fader Send, on the other hand, the Send Level is controlled only
 by the Send Fader, independently of the Track/Bus Fader. A Pre-Fader Send would look like this:
 
-![prefader]({{ site.url }}/images/Ardour3_Pre-Fader_Send.png) 
+![prefader]({{ site.url }}/images/Ardour4_Pre-Fader_Send.png) 
 
 You can drag the Send rectangle up and down the Processor box to make it Pre- or Post-Fader as needed.
 
@@ -114,7 +114,7 @@ You can deactivate it temporarily by clicking on the small "LED", and you can ri
 
 To control level of each Send, simply click and drag the Send Fader to increase or decrease its volume.
 
-![sendfader]({{ site.url }}/images/Ardour3_Send_Fader.png) 
+![sendfader]({{ site.url }}/images/Ardour4_Send_Fader.png) 
 
 The DRUMS Bus is now receiving the sum of all tracks, and applying the effect to it. A single Plugin applied to the Bus controls
 the effect for the mix of all drum sounds routed there. This way, you have independent control over the "dry" sound of the original tracks,
