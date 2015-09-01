@@ -49,7 +49,7 @@ selected track on the left side of the window. If you don't see it, hit
 Here we see the entire Mixer Strip, as it would appear in either the
 Editor Window or the Mixer Window. 
 
-![strip1]({{ site.url }}/images/Ardour3_Mixer_Strip_1.png) 
+![strip1]({{ site.url }}/images/Ardour4_Mixer_Strip_1.png) 
 
 ### Regular & Narrow Modes
 
@@ -58,7 +58,7 @@ narrow width to conserve space. The very top part of the Mixer Strip,
 pictured below, switches between regular and narrow modes using the left
 button. The right button hides the Mixer Strip entirely. 
 
-![strip top]({{ site.url }}/images/Ardour3_Mixer_Strip_Top.png) 
+![strip top]({{ site.url }}/images/Ardour4_Mixer_Strip_Top.png) 
 
 ### Track Name and Routing Button
 
@@ -70,7 +70,7 @@ is a button which allows access to the input Routing. Please see the
 information on input Routing. The last narrow region controls phase
 reversing (we won't go into details on this topic in this tutorial). 
 
-![strip 2]({{ site.url }}/images/Ardour3_Mixer_Strip_2.png) 
+![strip 2]({{ site.url }}/images/Ardour4_Mixer_Strip_2.png) 
 
 ### Processor Box 
 
@@ -84,7 +84,7 @@ shown in the lower half of the strip. Please see **Using Plugins** and
 The next portion of the Mixer Strip includes controls for Panning,
 Record, Mute, and Solo, among others.
 
-![strip 4]({{ site.url }}/images/Ardour3_Mixer_Strip_4.png) 
+![strip 4]({{ site.url }}/images/Ardour4_Mixer_Strip_3.png) 
 
 ### Panning
 
@@ -103,7 +103,7 @@ When any Track or Bus is on Solo, the **Solo Indicator** in the
 Auxiliary Controls menu will flash red. Clicking the Solo Indicator
 while it is flashing will deactivate every Solo in the Session.
 
-![strip 5]({{ site.url }}/images/Ardour3_Mixer_Strip_5.png) 
+![strip 5]({{ site.url }}/images/Ardour4_Mixer_Strip_4.png) 
 
 ### Mute
 
@@ -129,7 +129,7 @@ one **Bar Graph** in the case of a Mono Track, and two Bar Graphs in
 case of a Stereo track. The small rectangular field above the meters
 shows the highest Peak Value that has been played on that track so far.
 
-![strip 7]({{ site.url }}/images/Ardour3_Mixer_Strip_7.png) 
+![strip 7]({{ site.url }}/images/Ardour4_Mixer_Strip_5.png) 
 
 By clicking the right-hand button at the bottom of the Mixer Strip (it
 reads "*post*" in the image above), you will be able to select the
@@ -142,7 +142,7 @@ horizontal **Fader**, a vertical **Peak Meter** as well as miniature
 buttons for **Arm Record**, **Mute**, and **Solo**. They all mirror
 those found in the Mixer Strip for that Track.
 
-![strip 6]({{ site.url }}/images/Ardour3_Mixer_Strip_6.png) 
+![strip 6]({{ site.url }}/images/Ardour4_Mixer_Strip_6.png) 
 
 Please refer to the chapter on **Mixing Levels** for more detailed
 instruction about using the Fader and Peak Meters.
