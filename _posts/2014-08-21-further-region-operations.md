@@ -20,7 +20,7 @@ menu.
 This section describes a few of the most commonly used operations
 accessible from these menus.
 
-![region menu 1]({{ site.url }}/images/Ardour3_Region_Menu_1.png)
+![region menu 1]({{ site.url }}/images/Ardour4_Region_Menu_1.png)
 
 -   **Play**: play back from the beginning to the end of
     that Region (shortcut "*H*").
@@ -65,7 +65,7 @@ button. When pitch shifting by large amounts, the Preserve Formants
 option can give results that sound slightly more natural, particularly
 when used on vocal material.
 
-![pitch shift]({{ site.url }}/images/Ardour3_Pitch_Shift_Window.png) 
+![pitch shift]({{ site.url }}/images/Ardour4_Pitch_Shift_Window.png) 
 
 ## Normalize
 
@@ -76,7 +76,7 @@ be as loud as possible while avoiding **Clipping**. Sometimes you may
 find useful to normalize a region to a value less than 0, such as -1.0,
 -3.0, or -6.0 decibels, so it doesn't become too loud. 
 
-![normalize]({{ site.url }}/images/Ardour3_Normalize_Window.png) 
+![normalize]({{ site.url }}/images/Ardour4_Normalize_Window.png) 
 
 ## Reverse
 
@@ -96,12 +96,12 @@ two or more regions are selected. For example, take a look at the
 "Combine" function, under the sub-menu "Edit". First we select two
 adjacent regions:
 
-![combine]({{ site.url }}/images/Ardour3_Region_Combine.png)
+![combine]({{ site.url }}/images/Ardour4_Region_Combine.png)
 
 Then we choose "Combine" from the right-click context menu, or from
 Ardour's main menu *Region > Edit > Combine*: 
 
-![combine 2]({{ site.url }}/images/Ardour3_Region_Combine_2.png)
+![combine 2]({{ site.url }}/images/Ardour4_Region_Combine_2.png)
 
 As a result, the selected regions are combined into one. This is
 particulary useful when you have found an exact sequence of regions that
@@ -111,7 +111,7 @@ whole sequence as group.
 Notice that the resulting combined region has the word "compound"
 attached to its name. 
 
-![combine 3]({{ site.url }}/images/Ardour3_Region_Combine_3.png) 
+![combine 3]({{ site.url }}/images/Ardour4_Region_Combine_3.png) 
 
 ## Continuing
 
