@@ -16,7 +16,7 @@ Tracks.
 The Range tool (shortcut "*R*") is located just below the
 Transport Menu in the Edit Window.
 
-![Range Tool]({{ site.url }}/images/Ardour3_Range_Tool.png) 
+![Range Tool]({{ site.url }}/images/Ardour4_Range_Tool.png) 
 
 When you have selected the Range tool, your mouse pointer will look like a vertical line.
 
@@ -24,21 +24,21 @@ It can be useful to create Range selections that align with the edges of
 regions on your Timeline. Selecting the "*Grid*" and "*Region bounds**"
 items for Grid and Grid Point menus respectively makes this easy.
 
-![Region Bounds]({{ site.url }}/images/Ardour3_Grid_Region_Bounds.png) 
+![Region Bounds]({{ site.url }}/images/Ardour4_Grid_Region_Bounds.png) 
 
 To make a Range selection, drag anywhere on the Timeline. The current
 Grid and Grid Point options determine exactly how the Range selection
 behaves. Once a Range has been selected, Right-Clicking on it opens a
 menu with Range-specific operations.
 
-![Range selection]({{ site.url }}/images/Ardour3_Range_Selection_and_Menu.png) 
+![Range selection]({{ site.url }}/images/Ardour4_Range_Selection_and_Menu.png) 
 
 **Loop range**, for example, sets up **Loop Markers** around the current
 Range and begins looped playback. The **Loop Start** and **Loop End**
 points can be changed by moving the green triangles which correspond to
 the each point.
 
-![Range Loop]({{ site.url }}/images/Ardour3_Range_Loop.png) 
+![Range Loop]({{ site.url }}/images/Ardour4_Range_Loop.png) 
 
 Other useful options here for editing allow you to **Duplicate** the
 Range, **Select All** within the Range or **Crop** the Range.
@@ -60,7 +60,7 @@ actions snap to certain metric elements of the session (for example,
 snapping to **Beats**). Once the one-bar loop has been set up, the
 screen will look like this: 
 
-![Bar Loop]({{ site.url }}/images/Ardour3_Range_Bar_Loop.png) 
+![Bar Loop]({{ site.url }}/images/Ardour4_Range_Bar_Loop.png) 
 
 This will set up a loop range which you can play by using the **Play
 Loop** button in the **Transport Menu** at the very top of the Editor
@@ -68,7 +68,7 @@ Window (shortcut: "*L*"). While the Range is looping, you can use the
 **Solo** button on each track to listen to each the instruments
 individually.
 
-![Loop Solo]({{ site.url }}/images/Ardour3_Range_One_Bar_Loop_Solo.png) 
+![Loop Solo]({{ site.url }}/images/Ardour4_Range_One_Bar_Loop_Solo.png) 
 
 Continuing
 ----------
