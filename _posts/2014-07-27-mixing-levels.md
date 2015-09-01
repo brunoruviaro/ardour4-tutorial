@@ -29,10 +29,10 @@ above the Fader. You can change the Levels by either dragging the slider
 or typing in a new number directly into the rectangle with the number.
 By default the Fader is set to −0.0 dB, meaning that the Levels of the
 Track are not changed. In the screenshot below, the
-Fader for the track named "*kick*" is set to -0.3, and the Peak Meter
-indicates that the highest peak so far was -7.0. 
+Fader for the track named "*kick*" is set to -0.0, and the Peak Meter
+indicates that the highest peak so far was -5.1. 
 
-![levels1]({{ site.url }}/images/Ardour3_Mixing_Levels_1.png) 
+![levels1]({{ site.url }}/images/Ardour4_Mixing_Levels_1.png) 
 
 ## Avoiding Clipping
 
@@ -41,11 +41,11 @@ Value on the Mixer Strip turns red when the signal has peaked above
 0.0dB. You can use this tool to monitor the highest Levels of your Track
 while Mixing. 
 
-In the screenshot below, the synth track has just clipped to +3.0. You
+In the screenshot below, the synth track has just clipped to +5.9. You
 can also see little red edges on the waveform itself, indicating the
 exact locations where the recorded sound clipped. 
 
-![levels2]({{ site.url }}/images/Ardour3_Mixing_Levels_2.png)
+![levels2]({{ site.url }}/images/Ardour4_Mixing_Levels_2.png)
 
 Click on the red number in the Peak Meter to reset it.
 
