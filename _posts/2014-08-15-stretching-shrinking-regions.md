@@ -19,7 +19,7 @@ cause noticeable sound **Artifacts**. However, the more extreme the
 change in length, the more obvious the effect of processing on the
 sound.
 
-![stretch]({{ site.url }}/images/Ardour3_EditModes_T.png) 
+![stretch]({{ site.url }}/images/Ardour4_EditModes_T.png) 
 
 To use **Stretch/Shrink Regions**, place your cursor on top of the
 region, and then Click-drag left or right. While dragging, you will see
@@ -27,7 +27,7 @@ a highlighted area, which represents the new duration to which the
 Region will be shrunk or stretched when you release the mouse at the
 current position.
 
-![stretching]({{ site.url }}/images/Ardour3_Stretch_Shrink_Action.png)
+![stretching]({{ site.url }}/images/Ardour4_Stretch_Shrink_Action.png)
 
 ## Time-Stretching a Region to Fit the Loop
 
@@ -41,7 +41,7 @@ After importing this synth line, we see that the length of our new
 Region doesn't match the existing rhythm we've already created. It's too
 long to be one bar and too short to be two bars.
 
-![stretch1]({{ site.url }}/images/Ardour3_Stretch_Shrink_1.png) 
+![stretch1]({{ site.url }}/images/Ardour4_Stretch_Shrink_1.png) 
 
 We can correct this by using the Stretch/Shrink tool. Select the Region
 you wish to stretch, and drag the new length to the end of the second
@@ -53,7 +53,7 @@ operation. Each will affect the sound in different ways. It's a good
 idea to experiment with a few different stretch settings to find out
 which gives the result you're most happy with.
 
-![stretch2]({{ site.url }}/images/Ardour3_Stretch_Shrink_2.png) 
+![stretch2]({{ site.url }}/images/Ardour4_Stretch_Shrink_2.png) 
 
 Click **Stretch/Shrink** in the Time Stretch dialog to start the
 operation.
@@ -62,7 +62,7 @@ When the Time Stretch operation is complete, the region of the
 synthesizer line will now be exactly two Bars long, and should fit in
 with the rhythm we already created with the drum samples.
 
-![stretch3]({{ site.url }}/images/Ardour3_Stretch_Shrink_3.png) 
+![stretch3]({{ site.url }}/images/Ardour4_Stretch_Shrink_3.png) 
 
 ## Continuing
 
