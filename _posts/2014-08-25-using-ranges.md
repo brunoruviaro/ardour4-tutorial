@@ -21,7 +21,7 @@ Transport Menu in the Edit Window.
 When you have selected the Range tool, your mouse pointer will look like a vertical line.
 
 It can be useful to create Range selections that align with the edges of
-regions on your Timeline. Selecting the "*Grid*" and "*Region bounds**"
+regions on your Timeline. Selecting the "*Grid*" and "*Region bounds*"
 items for Grid and Grid Point menus respectively makes this easy.
 
 ![Region Bounds]({{ site.url }}/images/Ardour4_Grid_Region_Bounds.png) 
