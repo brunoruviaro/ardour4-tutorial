@@ -42,7 +42,7 @@ change the routing.
 The Audio Connection Manager window (also known as the patchbay) is the
 main way to make connections to, from ,and within Ardour's mixer. You
 can open this window with the shortcut "*Alt*" + "*N*", or through the
-menu *Window > Audio Connection Manager*.
+menu *Window > Audio Connections*.
 
 ![Audio Connection Manager]({{ site.url }}/images/Ardour4_Audio_Connection_Manager_Menu.png) 
 
