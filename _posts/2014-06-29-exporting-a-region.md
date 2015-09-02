@@ -18,7 +18,7 @@ it in a different editor program. This chapter shows you how.
 To Export a Region, select it (so it becomes blue), and then right-click into the sub-menu
 **Export**, or use the top menu: *Region > Export*.
 
-![export region]({{ site.url }}/images/Ardour3_Export_Region_1.png)
+![export region]({{ site.url }}/images/Ardour4_Export_Region_1.png)
 
 This will open up the same Export dialog box explained in the [Exporting a Session](../exporting-a-session) chapter.
 Choose your options, and click "Export". Only the selected Region will be exported.
@@ -33,29 +33,33 @@ file. To export these edits, please see the chapters on **Exporting a Range** an
 
 If you are building a collection of samples to use later in another software, and your samples are basically trimmed and edited Regions, at the end of the process you will need to export all of them. If the number is large, exporting them manually can be tedious. Here's one way of exporting several Regions at once.
 
-* In Object Mode (shortcut "*O*"), select all the Regions you want to Export. They do not need to be on the same Track.
+* In Grab Mode (shortcut "*G*"), select all the Regions you want to Export. They do not need to be on the same Track.
+
+![export region]({{ site.url }}/images/Ardour4_Export_Region_Multiple_1.png)
 
 * Go to menu *Region > Ranges* and choose *Add Range Marker Per Region*.
 
-![export region]({{ site.url }}/images/Ardour3_Export_Region_Multiple1.png)
+![export region]({{ site.url }}/images/Ardour4_Export_Region_Multiple_2.png)
 
-* Ardour has now just created Range Markers that fit exactly the beginning and ending of your selected Regions (see the green rectangles in the Range Markers timeline):
+* Ardour has now just created Range Markers that fit exactly the beginning and ending of your selected Regions (see the green rectangles in the Range Markers ruler):
 
-![export region]({{ site.url }}/images/Ardour3_Export_Region_Multiple2.png)
+![export region]({{ site.url }}/images/Ardour4_Export_Region_Multiple_3.png)
 
-* Go to menu *Session > Export* and choose *Export to Audio File(s)*.
+* Go to menu *Session > Export* and choose *Export to Audio File(s)* (shortcut "*Alt*" + "*E*").
 
-* In the Export dialog box, click on the little triangle next to "*Time span and channel options*". You will see all the newly created Ranges listed there. There is also a default Range that stands for the entire Session. 
-
-![export region]({{ site.url }}/images/Ardour3_Export_Region_Multiple3.png)
+* In the Export dialog box, click on the "*Time span*" tab. You will see all the newly created Ranges listed there. There is also a default Range that stands for the entire Session. 
 
 * Under "Time Span", click "*Select All*", and de-select the very first Range (the "session" Range). The reason is because we want to export the shorter Ranges, not the whole Session.
 
-* Close the "*Time span and channel options*" by clicking on the little triangle again.
+![export region]({{ site.url }}/images/Ardour4_Export_Region_Multiple_4.png)
+
+* Go back to the main tab ("*File format*").
 
 * Click "*Export*".
 
 You Regions have now been exported to single audio files.
+
+**IMPORTANT:** this method exports *everything* that falls under each defined time range. In other words, if you have other regions in other tracks sounding simultaneously with the region(s) you want to export, they will be mixed together. Another way of looking at it is this: the export operation will export everything that *plays* under the defined time ranges. If that is not what you want, you can use solo or mute buttons on select tracks to ensure you export only what you want.
 
 ## Continuing
 
