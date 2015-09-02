@@ -45,12 +45,19 @@ will have finer control over the following options:
 
 ![New Session Set-Up]({{ site.url }}/images/Ardour4_Session_Setup_3.png) 
 
-Note you cannot directly choose the **Sample Rate** (the number of audio
-samples recorded in one second) of the new Session. This will be the
-Sample Rate at which JACK is currently running. Ardour only allows you
-to open a Session created at the current JACK Sample Rate. For example,
-a Session created when JACK was running at 96 kHz will not open if JACK
-is currently running at 48 kHz.
+If you do not have JACK installed on your computer, or if it is installed but not running, you will see the following window before your session launches:
+
+![New Session Set-Up]({{ site.url }}/images/Ardour4_Session_Audio_MIDI_Setup.png)
+
+The main options are:
+
+**Audio System** - you can either choose JACK (if you have it installed), or your computer's default audio system (ALSA for Linux, CoreAudio for Mac).
+
+**Device** - it's either your built-in sound card, or an external sound card if you have one (such as a USB interface).
+
+**Sample Rate** - 48K or 44.1K are common choices.
+
+You will not have to deal with this window if you started JACK before starting Ardour.
 
 To create an Ardour session after Ardour has already started, select
 **Session** > **New** in the menu.
