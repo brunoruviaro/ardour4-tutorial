@@ -27,13 +27,13 @@ basis for each Session you created in that situation.
 
 You can save a new Template from the Main Menu: *Session > Save Template*. You are asked to give the new Template a name:
 
-![template1]({{ site.url }}/images/Ardour3_Save_Template1.png)
+![template1]({{ site.url }}/images/Ardour4_Save_Template_1.png)
 
 ## Load a Template
 
 When creating a new Session, you get can now load up a previously saved Template:
 
-![template2]({{ site.url }}/images/Ardour3_Save_Template2.png)
+![template2]({{ site.url }}/images/Ardour4_Save_Template_2.png)
 
 In summary: Session Templates are a way to store the setup of a session for future use. They do not store any audio data but can store:
 
@@ -53,7 +53,7 @@ on the Internet and, last but not least, the [**Credits**](../credits) of those
 involved in creating this Free/Libre Open Source Software (FLOSS) Manual.
 
 Thanks for reading, and if you have some knowledge about Ardour that is
-not included here, please feel free to propose changes. Also, this manual itself is fully open source and lives at [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial). You can even fork it and create your own customized version of it!
+not included here, please feel free to propose changes (more info on how to do it: [**How to Contribute**](../how-to-contribute-0/). Also, this manual itself is fully open source and lives at [https://github.com/brunoruviaro/ardour4-tutorial](https://github.com/brunoruviaro/ardour4-tutorial). You can even fork it and create your own customized version of it!
 
 **Appendices:**
 [FURTHER HELP](../further-help)   ||
