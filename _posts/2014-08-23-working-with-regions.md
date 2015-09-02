@@ -96,7 +96,7 @@ Three options are available:
     to fill the entire track, all the way up to the **End** marker on
     the timeline. 
 
-In the following screenshot, regions have been duplicate using the
+In the following screenshot, regions have been duplicated using the
 methods above.
 
 ![Duplicate]({{ site.url }}/images/Ardour4_Region_Duplicate.png) 
