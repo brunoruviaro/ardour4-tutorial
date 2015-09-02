@@ -77,8 +77,7 @@ Clocks.
 
 The **Edit Modes** and **Cursor Modes** controls define the behavior of
 the main canvas and the different functions the cursor can have. There
-are three Edit Modes in the drop-down menu: **Slide Edit**, **Splice
-Edit**, and **Lock Edit**. To the right of the Smart button are the
+are three Edit Modes in the drop-down menu: **Slide**, **Ripple**, and **Lock**. To the right of the Smart button are the
 Cursor Modes:
 
 -   **Select/Move Object** (shortcut *"O"*)
