@@ -144,11 +144,13 @@ markers that you see in the screenshot above. If you don't see the
 ## Splitting Regions
 
 To **Split** a Region simply means to divide a single Region into two
-independent Regions. This point at which a Region will be split depends
+independent Regions. There are two ways of accomplishing this:
+
+* You can use the Cut Mode (shortcut *"C"*) to point and click anywhere you want to split; or
+* You can stay in Grab Mode and use the shortcut *"S"* (for "Split"). In this last case, the point at which a Region will be split depends
 on the currently selected Edit Point. If Mouse is selected as your
 current Edit Point, select a Region and place the cursor at the point
-you would like to Split. Click on **Edit** > **Split Region** (shortcut
-"*S*"). 
+you would like to Split, then type "*S*" (same as going to menu **Edit** > **Split Region**).
 
 ![Split]({{ site.url }}/images/Ardour4_Split_Region.png)
 
