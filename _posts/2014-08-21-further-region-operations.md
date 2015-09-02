@@ -34,13 +34,10 @@ accessible from these menus.
     Moved or Trimmed. It can still be Split, however, and the resulting
     Regions will be unlocked.
 -   **Edit**: in this sub-menu you find useful tools such as
-    **Mute**(shortcut "*Control*" + "*M*"), **Pitch Shift** (shortcut
-    "*Alt*" + "*T*") and **Reverse** (shortcut "*Alt*" + "*R*"). Mute
-    renders the region silent. Pitch Shift alters the pitch of a region
-    without changing its duration. Reverse makes the region play
-    backwards.
--   **Gain**: useful options such as **Normalize** (shortcut
-    "*N*"), **Boost Gain**, and **Cut Gain**.
+    **Mute**, **Pitch Shift** and **Reverse**. Mute renders the region 
+    silent. Pitch Shift alters the pitch of a region without changing 
+    its duration. Reverse makes the region play backwards.
+-   **Gain**: useful options such as **Normalize**, **Boost Gain**, and **Cut Gain**.
 -   **Duplicate**: includes Duplicate, Multi-Duplicate, and Fill Track.
     These were explained in detail in the chapter [Working with
     Regions](../working-with-regions). 
@@ -54,10 +51,9 @@ useful functions.
 
 ## Pitch Shifting
 
-The **Pitch Shift** function (shortcut "*Alt*" + "*T*" with a selected region)
-alters the pitch of a region without changing its duration. The function
-applies a pitch-shifting algorithm to create a new audio clip based on
-the source clip.
+The **Pitch Shift** function alters the pitch of a region without 
+changing its duration. The function applies a pitch-shifting algorithm 
+to create a new audio clip based on the source clip.
 
 The Pitch Shift window the user to specify the amount and direction of
 transposition desired. The window includes a **Preserve Formants**
@@ -69,20 +65,19 @@ when used on vocal material.
 
 ## Normalize
 
-The **Normalize** function (shortcut "*N*" with a selected region)
-non-destructively boosts the level of the selected Region so that the
-**Peaks** are at 0 dB or less. When Normalizing to 0.0, the region will
-be as loud as possible while avoiding **Clipping**. Sometimes you may
-find useful to normalize a region to a value less than 0, such as -1.0,
--3.0, or -6.0 decibels, so it doesn't become too loud. 
+The **Normalize** function non-destructively boosts the level of the 
+selected Region so that the **Peaks** are at 0 dB or less. When Normalizing 
+to 0.0, the region will be as loud as possible while avoiding **Clipping**. 
+Sometimes you may find useful to normalize a region to a value less than 0, 
+such as -1.0, -3.0, or -6.0 decibels, so it doesn't become too loud. 
 
 ![normalize]({{ site.url }}/images/Ardour4_Normalize_Window.png) 
 
 ## Reverse
 
-The **Reverse** function (shortcut "*Alt*" + "*R*") reverses the
-selected region of audio, in effect causing it to play backwards.
-Reversing a region creates a new audio file 'behind the scenes'.
+The **Reverse** function reverses the selected region of audio, in 
+effect causing it to play backwards. Reversing a region creates a 
+new audio file 'behind the scenes'.
 
 ## Operations on two or more selected Ranges
 
