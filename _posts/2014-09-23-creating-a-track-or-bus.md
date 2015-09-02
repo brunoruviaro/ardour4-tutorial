@@ -92,9 +92,7 @@ Additional information on the **Instrument** and **Group** options can
 be found on [this other page of the
 Manual](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
 
-The **Group** option lets you add the new track to an existing Group, or create a new Group as you create the new track. For more info on groups:
-
-[http://manual.ardour.org/working-with-tracks/track-and-bus-groups/](http://manual.ardour.org/working-with-tracks/track-and-bus-groups/).
+The **Group** option lets you add the new track to an existing Group, or create a new Group as you create the new track. If you are a beginner, you don't have to worry about Groups just now. For future reference, you can find more info on groups on the [Ardour Manual](http://manual.ardour.org/working-with-tracks/track-and-bus-groups/).
 
 The last option (**Insert**) lets you choose where you want the new track or bus to be placed: first, last, before or after the selection.
 
