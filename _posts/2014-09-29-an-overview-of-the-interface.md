@@ -196,7 +196,7 @@ Mixer Window Controls
 ---------------------
 
 The second window, the **Mixer Window**, can be viewed by going to the
-main menu and clicking *Window > Show Mixer*.
+main menu and clicking *Window > Mixer*.
 
 ![Mixer Window]({{ site.url }}/images/Ardour4_Mixer_Window_1.png) 
 
