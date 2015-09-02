@@ -134,7 +134,7 @@ Before moving:
 ![mv1]({{ site.url }}/images/Ardour4_Automation_Moving_1.png)
 
 After moving:
-![mv2]({{ site.url }}/images/Ardour3_Automation_Moving_2.png)
+![mv2]({{ site.url }}/images/Ardour4_Automation_Moving_2.png)
 
 You can change this behaviour if you like. In other words, if you want automation curves to *stay where they are* even when you move Regions around, go to Edit > Preferences > Editor and uncheck "Move relevant automation when audio regions are moved."
 
