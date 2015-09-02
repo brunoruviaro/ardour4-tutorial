@@ -22,19 +22,17 @@ Once you have finished your composition, the most common export operation is to 
 
 At this point it's a good idea to Zoom Out and take a look at your whole session before exporting.
 
-* Hit "*Control*" + "*Shift*" and click on any of your Tracks (on the empty space around the fader). This will select all Tracks and Busses in your Session.
+* Select "All" from the menu "Number of visible tracks":
 
-* Now, right click on the same spot and set all Track heights to "Small":
-
-![track heights]({{ site.url }}/images/Ardour3_Track_Height.png)
+![track heights]({{ site.url }}/images/Ardour4_Track_Height.png)
 
 * Click on the "Zoom to Session" button (third button in the Zoom Options):
 
-![zoom options]({{ site.url }}/images/Ardour3_Zoom_Options.png)
+![zoom options]({{ site.url }}/images/Ardour4_Zoom_Options)
 
 * You should now have a nice overview of your whole session, like this:
 
-![birds eye view]({{ site.url }}/images/Ardour3_Export_Session_Birds_Eye_View.png)
+![birds eye view]({{ site.url }}/images/Ardour4_Export_Session_Birds_Eye_View.png)
 
 Listen to your piece one last time and make sure you hear everything the way you want (any Solo or Mute button you forgot to deactivate? Any volume adjusment left to do? etc.)
 
@@ -42,12 +40,12 @@ Listen to your piece one last time and make sure you hear everything the way you
 
 Finally, make sure the *Start* and *End* markers are in the right place.
 
-![start]({{ site.url }}/images/Ardour3_Export_Session_Start.png)
-![end]({{ site.url }}/images/Ardour3_Export_Session_End.png)
+![start]({{ site.url }}/images/Ardour4_Export_Session_Start.png)
+![end]({{ site.url }}/images/Ardour4_Export_Session_End.png)
 
 Everything included between the *Start* and *End* Location Markers in the Timeline will be exported, so you have to set the markers first if they are not in the correct position. In the image below, clearly the End marker is too far to the right in the timeline. This will result in a huge silence after the end of the piece (that is, between the last Region and the End marker).
 
-![export session]({{ site.url }}/images/Ardour3_Export_Session_Start_End_ARROWS.png)
+![export session]({{ site.url }}/images/Ardour4_Export_Session_Start_End_ARROWS.png)
 
 If your End marker is too far after the end of your piece, click and drag it to the left until it is pretty close to the end of the very last Region of your composition.
 
@@ -55,7 +53,7 @@ If your End marker is too far after the end of your piece, click and drag it to 
 
 To Export a Session, use the top menu: *Session > Export > Export to Audio File(s)...*. This will open up a dialogue box with several options.
 
-![export session dialog]({{ site.url }}/images/Ardour3_Export_Session2.png)
+![export session dialog]({{ site.url }}/images/Ardour4_Export_Session_Window_1.png)
 
 * **Preset**: this is *NOT* where you write the file name. Don't worry about this field now.
 * **Format**: this allows you to choose the file format (WAV, MP3, OGG, FLAC, etc.). The default is CD (Red Book), which will give you a WAV file.
@@ -69,7 +67,7 @@ Having chosen your options, click *Export*. After the operation is finished, you
 
 ## Advanced Options
 
-Click on the little triangle next to "*Time span and channel options*" in case you need to access advanced export options.
+Click on the tabs "*Time span*" and "*Channels*" in case you need to access advanced export options.
 
 Continuing
 ----------
