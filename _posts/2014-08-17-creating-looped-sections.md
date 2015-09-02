@@ -87,8 +87,8 @@ either **Combine** or **Consolidate**), it's time to duplicate the
 pattern to make it loop for several bars.
 
 The **Multi-Duplicate** feature (seen in the **Working with Regions**
-chapter) is a good way to accomplish this. Go back to Object mode
-(shortcut "*O*"), select all regions, and hit "*Shift*" + "*D*". Choose
+chapter) is a good way to accomplish this. Go back to Grab mode
+(shortcut "*G*"), select all regions, and hit "*Shift*" + "*D*". Choose
 how many times you want to duplicate the pattern (for example, 16).
 After duplication our session looks something like this:
 
