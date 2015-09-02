@@ -65,13 +65,15 @@ when used on vocal material.
 
 ## Normalize
 
-The **Normalize** function non-destructively boosts the level of the 
+The **Normalize** function (shortcut *"Alt" + "3"* non-destructively boosts the level of the 
 selected Region so that the **Peaks** are at 0 dB or less. When Normalizing 
 to 0.0, the region will be as loud as possible while avoiding **Clipping**. 
 Sometimes you may find useful to normalize a region to a value less than 0, 
 such as -1.0, -3.0, or -6.0 decibels, so it doesn't become too loud. 
 
 ![normalize]({{ site.url }}/images/Ardour4_Normalize_Window.png) 
+
+Two other useful gain operations for regions are Boost Gain (*"Alt" + "6"*), and Cut Gain (*"Alt" + "7"*). Be sure to try them out.
 
 ## Reverse
 
