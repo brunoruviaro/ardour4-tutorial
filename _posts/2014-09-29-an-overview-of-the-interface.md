@@ -84,11 +84,10 @@ Cursor Modes:
 -   **Select/Move Object** (shortcut *"O"*)
 -   **Select/Move Range** (shortcut *"R"*)
 -   **Select Zoom Range** (shortcut *"Z"*)
--   **Draw Region Gain** (shortcut *"G"*)
 -   **Stretch/Shrink Regions** (shortcut *"T"*)
 -   **Listen to Specific Regions**
--   **Draw/Edit MIDI notes** (shortcut *"D"*)
--   **Note Level Editing** (shortcut *"E"*)
+-   **Draw/Edit Gain/Notes/Automation** (shortcut *"D"*)
+-   **Edit Notes and Automation Points** (shortcut *"E"*)
 
 The first six modes are discussed in the **Working With Regions**
 chapter. This tutorial does not discuss any of the MIDI functionality of
