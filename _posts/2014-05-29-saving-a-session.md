@@ -24,7 +24,7 @@ frequently. Get into the habit of hitting *"Control"* + *"S"* (or *"Command"* + 
 The contents of a typical Session's folder on your hard drive might look something like
 this:
 
-![Ardour Folder]({{ site.url }}/images/Ardour3_Session_Folder_Structure.png)
+![Ardour Folder]({{ site.url }}/images/Ardour4_Session_Folder_Structure.png)
 
 A bit of information about some of the components inside that folder:
 
@@ -36,7 +36,7 @@ A bit of information about some of the components inside that folder:
 
 > TIP: If double-clicking on the session file does not launch Ardour, use the standard method of first opening the application itself, then choosing a session from the Session Setup dialog.
 
-![Ardour Opening]({{ site.url }}/images/Ardour3_Session_Setup_Dialog.png)
+![Ardour Opening]({{ site.url }}/images/Ardour4_Session_Setup_Dialog.png)
 
 ## Continuing
 
