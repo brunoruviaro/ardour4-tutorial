@@ -73,7 +73,7 @@ display the different types of time information.
 ### Minutes/Seconds
 
 To view Minutes and Seconds on the Timeline, right-click the Timeline
-and select **Minutes:Seconds**. You will be able to set the Grid to
+and select **Min:Sec**. You will be able to set the Grid to
 either *Seconds* or *Minutes*.
 
 ### Bars/Beats
