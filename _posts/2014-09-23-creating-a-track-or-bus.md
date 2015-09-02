@@ -84,7 +84,7 @@ made here will also affect which Plugins you can use on the track (Mono
 tracks cannot use Stereo Plugins and vice versa).
 
 The menu **Track Mode** gives you a choice between **Normal**,
-**Non-Layered**, and **Tape**. Normal Mode creates a new Region for each
+**Non Layered**, and **Tape**. Normal Mode creates a new Region for each
 Recording **Take**, and is suggested for beginners. For information on
 the other modes, check the [Ardour
 Manual](http://manual.ardour.org/working-with-tracks/track-types/).
