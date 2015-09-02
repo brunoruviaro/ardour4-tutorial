@@ -29,7 +29,7 @@ mixers. It has three parameters, which adjust the Levels of three
 one for the middle range frequencies and one for the **Treble** (high
 frequencies). The "*DJ EQ*" Plugin is just such an EQ.
 
-![dj eq]({{ site.url }}/images/Ardour3_EQ_DJ.png)
+![dj eq]({{ site.url }}/images/Ardour4_EQ_DJ.png)
 
 ## Multi-Band (or Graphical) Equalizer
 
@@ -40,7 +40,7 @@ frequency of each Band can be defined by the user. This allows you to
 either attenuate (or remove) an unwanted frequency, or to reinforce
 (boost) a desired one.
 
-![tap eq]({{ site.url }}/images/Ardour3_EQ_TAP_Equalizer.png)
+![tap eq]({{ site.url }}/images/Ardour4_EQ_TAP_Equalizer.png)
 
 The overall "curve" of the Bands can also be used to determine the
 general tone of your Track or Mix. In the example above, the lower part
@@ -56,7 +56,7 @@ In Ardour there is a Parametric Equalizer called the "*Triple Band
 Parametric with Shelves*". There is also a similar one from the Calf Plugins package, as
 seen in the screenshot below:
 
-![calf eq]({{ site.url }}/images/Ardour3_EQ_Calf.png)
+![calf eq]({{ site.url }}/images/Ardour4_EQ_Calf.png)
 
 There are three options for each Frequency Band (boxes "*Parametric 1*", "*2*", and "*3*").
 Each of the three Bands has a "*Level (dB)*" adjustment to cut or boost frequencies, a
