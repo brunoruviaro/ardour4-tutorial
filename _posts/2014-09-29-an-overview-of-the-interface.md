@@ -216,7 +216,7 @@ area for managing **Groups**.
 Switching Between Windows
 -------------------------
 
-You can use the key combination "*Alt*" + "*M*" ("*Option*"+ "*M*" on a
+You can use the key combination "*Alt*" + "*M*" ("*Control*"+ "*M*" on a
 Mac) in order to toggle which window is on top: Editor or Mixer.
 
 Detaching and Reattaching Menus
