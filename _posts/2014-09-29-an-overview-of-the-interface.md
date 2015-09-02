@@ -138,7 +138,7 @@ Main Canvas
 -----------
 
 The main canvas is just below the top rows of controls described above.
-It basically comprises the **Rulers**, the space where **Tracks**and
+It basically comprises the **Rulers**, the space where **Tracks** and
 **Busses** are displayed, horizontal and vertical scroll bars and a
 **Zoom Options** section at the bottom. The very bottom of Ardour's
 Editor Window also displays useful information, such as sample rate of
