@@ -79,7 +79,7 @@ either *Seconds* or *Minutes*.
 ### Bars/Beats
 
 To view Bars and Beats on the Timeline, right-click the Timeline and
-select **Beats/Bars**. You will be able to set the Grid to either
+select **Bars & Beats**. You will be able to set the Grid to either
 *Bars*, *Beats* or a convenient multiple of beats, such as 3, 4, 8, 16
 or 32.
 
