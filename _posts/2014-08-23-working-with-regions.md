@@ -136,7 +136,7 @@ marker lets you rename the marker, among other options.
 
 ![Loc Marker]({{ site.url }}/images/Ardour4_Location_Marker.png) 
 
-TIP: when you first create a new session, two location markers are
+>TIP: when you first create a new session, two location markers are
 automatically added by default. These are the **start** and **end**
 markers that you see in the screenshot above. If you don't see the
 **end** marker, zoom out enough and you will find it. 
