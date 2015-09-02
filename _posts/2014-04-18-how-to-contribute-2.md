@@ -20,7 +20,7 @@ A good way of proposing changes (like fixing a typo or a link) is to edit a page
 
 Simply follow these steps:
 
-1. Go to [https://github.com/brunoruviaro/ardour3-floss-tutorial/tree/gh-pages/_posts](https://github.com/brunoruviaro/ardour3-floss-tutorial/tree/gh-pages/_posts) and find the section you want to edit. If this is your first time, you may want to try the file **2014-04-20-dummy-page.md** (that page was made just for testing, so no worries of messing it up).
+1. Go to [https://github.com/brunoruviaro/ardour4-tutorial/tree/gh-pages/_posts](https://github.com/brunoruviaro/ardour4-tutorial/tree/gh-pages/_posts) and find the section you want to edit. If this is your first time, you may want to try the file **2014-04-20-dummy-page.md** (that page was made just for testing, so no worries of messing it up).
 
 2. Click on the file name (**2014-04-20-dummy-page.md**) to see its content.
 

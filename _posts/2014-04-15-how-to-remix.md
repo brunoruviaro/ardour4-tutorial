@@ -30,7 +30,7 @@ Note that *_config.yml* is in the .gitignore file. This allows you to work local
 
 ### Change background picture
 
-This is done in the file *ardour3-floss-tutorial/index.html*. The current default image is *Ardour3_Empty_Session_Transparent.png*. Replace it with any other file that you have saved inside the **images** folder.
+This is done in the file *ardour4-tutorial/index.html*. The current default image is *Ardour3_Empty_Session_Transparent.png*. Replace it with any other file that you have saved inside the **images** folder.
 
 To change the background picture of individual posts, open the post file itself (extension .md) and change picture file name in the header.
 

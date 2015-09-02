@@ -20,7 +20,7 @@ An issue can be anything: reporting a typo, a mistake, an outdated passage; or m
 
 1. Log in to your GitHub account
 
-2. Go to [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial)
+2. Go to [https://github.com/brunoruviaro/ardour4-tutorial](https://github.com/brunoruviaro/ardour4-tutorial)
 
 3. On the right side column, click on "Issues"
 

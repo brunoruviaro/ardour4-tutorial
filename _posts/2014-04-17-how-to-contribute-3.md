@@ -25,21 +25,21 @@ You can do quite a lot of editing and writing directly from your browser using t
 
 A common work flow is to fork the main repository, clone your forked GitHub repository on your computer, make changes locally, preview them with Jekyll, commit and push changes to your online repository, and later create a pull request on GitHub.com. The description below assumes you are minimally comfortable using the command line from a terminal. It also assumes you have successfully installed Jekyll ([http://jekyllrb.com/docs/installation/](http://jekyllrb.com/docs/installation/)) to preview changes locally.
 
-* Log in to your GitHub account and go to [https://github.com/brunoruviaro/ardour3-floss-tutorial](https://github.com/brunoruviaro/ardour3-floss-tutorial).
+* Log in to your GitHub account and go to [https://github.com/brunoruviaro/ardour4-tutorial](https://github.com/brunoruviaro/ardour4-tutorial).
 
-* **Fork** your own copy of the repository to your account (Click on the Fork button on the upper right corner). You will be directed to your own fork of the tutorial: **https://github.com/yourname/ardour3-floss-tutorial**. The URL will have your own user name in place of "yourname".
+* **Fork** your own copy of the repository to your account (Click on the Fork button on the upper right corner). You will be directed to your own fork of the tutorial: **https://github.com/yourname/ardour4-tutorial**. The URL will have your own user name in place of "yourname".
 
 * Clone your forked repository on your computer:
 
 `
-git clone https://github.com/yourname/ardour3-floss-tutorial.git
+git clone https://github.com/yourname/ardour4-tutorial.git
 `
 
 #### Quick configuration setting for live preview
 
 * Go into the newly cloned directory:
 
-`cd ardour3-floss-tutorial/`
+`cd ardour4-tutorial/`
 
 * Open the file _config.yml with your favorite text editor
 
@@ -65,7 +65,7 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 * At this point you should be able to preview the new page locally, that is, in your browser window. For example, if you make a change to the file **2014-04-19-dummy-page.md** and save it, you will be able able to preview it at **http://localhost:4000/dummy-page/**
 
->Note: when viewing the live preview with jekyll, always make sure your browser points to localhost:4000. For example, the Table of Contents of your live preview should be at: http://localhost:4000/tags/ ; the post *2014-07-23-using-plugins.md* should be at http://localhost:4000/using-plugins/ etc. If for any reason your browser is pointing to http://brunoruviaro.github.io/ardour3-floss-tutorial/tags, this means you have been taken out of your local live preview back to the original online site. Simply replace http://brunoruviaro.github.io/ardour3-floss-tutorial/ with http://localhost:4000/ in your browser.
+>Note: when viewing the live preview with jekyll, always make sure your browser points to localhost:4000. For example, the Table of Contents of your live preview should be at: http://localhost:4000/tags/ ; the post *2014-07-23-using-plugins.md* should be at http://localhost:4000/using-plugins/ etc. If for any reason your browser is pointing to http://brunoruviaro.github.io/ardour4-tutorial/tags, this means you have been taken out of your local live preview back to the original online site. Simply replace http://brunoruviaro.github.io/ardour4-tutorial/ with http://localhost:4000/ in your browser.
 
 #### Done editing? Add, commit, push
 
@@ -79,7 +79,7 @@ git clone https://github.com/yourname/ardour3-floss-tutorial.git
 
 `git push origin gh-pages`
 
-* You can now go to your GitHub online repository **https://github.com/yourname/ardour3-floss-tutorial** ("yourname" is your actual user name), and you will see that the changes are reflected there. It is now time to create a pull request, that is, to propose the changes to the published tutorial (Bruno's repository).
+* You can now go to your GitHub online repository **https://github.com/yourname/ardour4-tutorial** ("yourname" is your actual user name), and you will see that the changes are reflected there. It is now time to create a pull request, that is, to propose the changes to the published tutorial (Bruno's repository).
 
 * Click on "Pull requests" in the right side column, and create a new pull request. Click through the pages to confirm the creation of pull request.
 
@@ -148,7 +148,7 @@ If you create a new page that is not necessarily part of a sequence, you may wan
 
 Images should be saved in the **images** folder, and linked in the body of the text like this:
 
-\!\[template1]({\{ site.url \}}/images/Ardour3_Save_Template1.png)
+\!\[template1]({\{ site.url \}}/images/Ardour4_Save_Template_1.png)
 
 ...where the word in square brackets is just a short word describing the image, and **Ardour3_Save_Template1.png** is the exact file name. Nothing else should be changed. In short, to add a screenshot or image in the text:
 
