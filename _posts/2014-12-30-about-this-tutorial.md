@@ -31,7 +31,7 @@ and developers. The tutorial was originally written for Ardour 2.X versions. The
 In December 2014, the tutorial was updated for Ardour 3.5 and moved to GitHub. The text was completely revised, and screenshots were replaced with newer ones. In August 2015, a similar revision was made to update all screenshots and text to Ardour 4.2. The 2014 and 2015 revisions were made by Bruno Ruviaro.
 
 The Ardour community is invited to contribute content to this tutorial.
-All text and image files live in [https://github.com/brunoruviaro/ardour4-tutorial](https://github.com/brunoruviaro/ardour4-tutorial), which makes it easy for anyone to fork, revise, and remix this text.
+All text and image files live in [https://github.com/brunoruviaro/ardour4-tutorial](https://github.com/brunoruviaro/ardour4-tutorial), which makes it easy for anyone to fork, revise, and remix this text. More info here: [http://brunoruviaro.github.io/ardour4-tutorial/how-to-contribute-0/](http://brunoruviaro.github.io/ardour4-tutorial/how-to-contribute-0/).
 
 This FLOSS manual complements the Ardour reference manual currently
 under development by the Ardour community, which aims to provide an
