@@ -80,21 +80,19 @@ the main canvas and the different functions the cursor can have. There
 are three Edit Modes in the drop-down menu: **Slide**, **Ripple**, and **Lock**. To the right of the Smart button are the
 Cursor Modes:
 
--   **Select/Move Object** (shortcut *"O"*)
--   **Select/Move Range** (shortcut *"R"*)
--   **Select Zoom Range** (shortcut *"Z"*)
--   **Stretch/Shrink Regions** (shortcut *"T"*)
--   **Listen to Specific Regions**
--   **Draw/Edit Gain/Notes/Automation** (shortcut *"D"*)
--   **Edit Notes and Automation Points** (shortcut *"E"*)
+-	**Smart Mode** (shortcut *"Y"*)
+-   **Grab Mode** (shortcut *"G"*)
+-   **Range Mode** (shortcut *"R"*)
+-   **Cut Mode** (shortcut *"C"*)
+-   **Stretch Mode** (shortcut *"T"*)
+-   **Audition Mode**
+-   **Draw Mode** (shortcut *"D"*)
+-   **Internal Edit Mode** (shortcut *"E"*)
 
-The first six modes are discussed in the **Working With Regions**
-chapter. This tutorial does not discuss any of the MIDI functionality of
-Ardour, so the the last two modes will not be covered.
+Most of them are discussed in the **Working With Regions**
+chapter. The last two are discussed in the **Using Automation** chapter.
 
-The **Smart Mode** button to the left of the mouse mode buttons modifies
-Object mode. When enabled, the mouse behaves as if it is in "Range Tool"
-mode in the upper half of a region, and in "Object Tool" mode in the
+The **Smart Mode** is actually a combination of Grab Mode and Range Mode. When enabled, the mouse behaves as if it is in "Range Mode" in the upper half of a region, and in "Grab Mode" in the
 lower half. 
 
 ### Snap Options
@@ -115,18 +113,18 @@ have standard **Zoom In** and **Zoom Out** buttons, plus a third called
 **Zoom to Session** (useful for having a quick overview of your entire
 session: it zooms it to fit the available space on the screen).
 
-> TIP: use the shortcuts **+** (the plus sign on your main keyboard) for Zoom In, and
+> TIP: use the shortcuts **=** (the equal sign on your main keyboard) for Zoom In, and
 **-** (the dash key on your main keyboard) for Zoom Out.
 
 The drop-down menu controls the **Zoom Focus**. It defines the focus
-point of zooming operations. Try zooming in and out with **+** and **-**
+point of zooming operations. Try zooming in and out
 with a different Zoom Focus each time. For example, choosing Playhead
-will cause zoom to behave in relationship to the position of the
+will cause zoom to behave in relation to the position of the
 Playhead. Mouse will take your current mouse position as the reference,
 and so on.
 
-The last two buttons are a kind of "vertical zoom." They allow you to
-expand and shrink all tracks and busses vertically. 
+The following drop-down menu and the last two buttons control "vertical zoom." They allow you to
+expand and shrink all tracks and busses vertically. Use the drop-down menu to choose a specific number of tracks you want to fit on the screen. Use the buttons to shrink or expand all tracks (or only selected tracks, if a selection is made).
 
 ### Auxiliary Controls
 
@@ -139,15 +137,13 @@ Main Canvas
 
 The main canvas is just below the top rows of controls described above.
 It basically comprises the **Rulers**, the space where **Tracks** and
-**Busses** are displayed, horizontal and vertical scroll bars and a
-**Zoom Options** section at the bottom. The very bottom of Ardour's
-Editor Window also displays useful information, such as sample rate of
-the session, available recording time, DSP use, and miscellaneous error
-messages.
+**Busses** are displayed, and a **Summary** view at the bottom.
+
+At the very top of Ardour's Editor Window (to the right) you will find useful information such as sample rate of the session, available recording time, and DSP use.
 
 ### Rulers
 
-Right-click on the rulers space and you will see a menu with all the
+Right-click on the names of rulers and you will see a menu with all the
 possible rulers at your disposition. You may uncheck rulers that you
 don't need in order to save screen space. More information on these
 operations can be found in the **Setting up the Timeline** and **Setting
@@ -158,8 +154,8 @@ up the Meter** chapters.
 ### Tracks and Busses
 
 Just below the Rulers is where Tracks and Busses are displayed. In the
-example below, you can see one Bus called "*master*" and one Track
-called "*My Track*". "My Track" also contains one region, which
+example below, you can see one Bus called "*Master*" and one Track
+called "*MyTrack*". MyTrack also contains one region, which
 represents an audio file with a drawing of its waveform. More
 information on Tracks and Busses can be found in the **Creating a Track
 or Bus** chapter. 
