@@ -10,7 +10,7 @@ image:
   creditlink:  
 ---
 
-Even though it's optional, we are going to assume you have JACK already running. Simply click on the Ardour icon to start the program.
+Simply click on the Ardour icon to start the program.
 
 On Ubuntu, you can find and launch software using the Dash. Tap the
 *"Super"* key (or *"Super" + "A"* to go directly to the Dash App Lens)
