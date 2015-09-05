@@ -38,6 +38,12 @@ A bit of information about some of the components inside that folder:
 
 ![Ardour Opening]({{ site.url }}/images/Ardour4_Session_Setup_Dialog.png)
 
+## Moving a session to another computer or disk
+
+If you need to move your Ardour session to another computer, or if you would like to make a backup of it on an external drive, *you must copy the entire folder* containing all of the files mentioned above. It is **not** enough to copy just the *.ardour file.
+
+> TIP: When copying an Ardour folder to another computer or drive, do not manually change its name or the name of any of the internal files.
+
 ## Continuing
 
 Saving an entire Session allows you to open it again at a later time.
