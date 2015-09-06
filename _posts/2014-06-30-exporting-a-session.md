@@ -28,7 +28,7 @@ At this point it's a good idea to Zoom Out and take a look at your whole session
 
 * Click on the "Zoom to Session" button (third button in the Zoom Options):
 
-![zoom options]({{ site.url }}/images/Ardour4_Zoom_Options)
+![zoom options]({{ site.url }}/images/Ardour4_Zoom_Options.png)
 
 * You should now have a nice overview of your whole session, like this:
 
