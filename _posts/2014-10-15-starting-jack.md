@@ -27,7 +27,7 @@ On a Mac, you will need to use [JackPilot](http://www.jackosx.com/). This page m
 
 Launch Cadence. If JACK is already running, you will see a window like this:
 
-![cadence]({{ site.url }}/images/Ardour3_JACK_Cadence.png)
+![cadence]({{ site.url }}/images/Ardour4_JACK_Cadence.png)
 
 More info on Cadence: [http://kxstudio.sourceforge.net/Documentation:Manual:cadence_introduction](http://kxstudio.sourceforge.net/Documentation:Manual:cadence_introduction)
 
@@ -35,7 +35,7 @@ More info on Cadence: [http://kxstudio.sourceforge.net/Documentation:Manual:cade
 
 If using Qjackctl instead, this is how it should look like:
 
-![qjackctl]({{ site.url }}/images/Ardour3_JACK_qjackctl.png)
+![qjackctl]({{ site.url }}/images/Ardour4_JACK_qjackctl.png)
 
 If not yet running, use the "Setup" button to configure JACK, and hit "Start" to start JACK.
 
