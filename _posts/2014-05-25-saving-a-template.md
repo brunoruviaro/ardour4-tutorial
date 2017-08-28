@@ -31,7 +31,7 @@ You can save a new Template from the Main Menu: *Session > Save Template*. You a
 
 ## Load a Template
 
-When creating a new Session, you get can now load up a previously saved Template:
+When creating a new Session, you can load up a previously saved Template:
 
 ![template2]({{ site.url }}/images/Ardour4_Save_Template_2.png)
 
