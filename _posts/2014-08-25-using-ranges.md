@@ -65,8 +65,7 @@ screen will look like this:
 This will set up a loop range which you can play by using the **Play
 Loop** button in the **Transport Menu** at the very top of the Editor
 Window (shortcut: "*L*"). While the Range is looping, you can use the
-**Solo** button on each track to listen to each the instruments
-individually.
+**Solo** button on each track to listen to each instrument individually.
 
 ![Loop Solo]({{ site.url }}/images/Ardour4_Range_One_Bar_Loop_Solo.png) 
 
