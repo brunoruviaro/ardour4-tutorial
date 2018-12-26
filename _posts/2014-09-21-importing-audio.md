@@ -113,7 +113,7 @@ after the sound file name.
 
 ![Add as New Tracks]({{ site.url }}/images/Ardour4_Add_As_New_Track.png) 
 
-If you have previously selected on or more tracks, the menu will display the
+If you have previously selected one or more tracks, the menu will display the
 additional option **Add files: to selected tracks** in order to add a sound
 file into the already existing selected track. 
 
