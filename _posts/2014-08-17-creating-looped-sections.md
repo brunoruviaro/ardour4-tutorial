@@ -23,7 +23,7 @@ hihat out of place, for example. There are two ways of doing this:
 **Consolidate Range** ("writes it in stone", does not allow you to
 separate them later).
 
-If are still planning on making alterations to the rhythm (adding,
+If you are still planning on making alterations to the rhythm (adding,
 removing, or moving individual regions), it may be better to use the
 **Combine** regions option. If you like the sequence the way it is and
 don't want or don't care to have the ability to separate them later, use
