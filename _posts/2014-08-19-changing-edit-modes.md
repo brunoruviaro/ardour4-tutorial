@@ -84,7 +84,7 @@ You can also *edit* individual points in this mode if you bring your cursor righ
 
 ### **Edit Mode (shortcut E)**
 
-Use this mode to edit existing gain automation points. Cursor looks like a hand, and turns into a small cross when you are on top an existing point. Click (hold the click down) and drag in order to move points.
+Use this mode to edit existing gain automation points. Cursor looks like a hand, and turns into a small cross when you are on top of an existing point. Click (hold the click down) and drag in order to move points.
 
 ![E]({{ site.url }}/images/Ardour4_EditModes_E.png)
 
