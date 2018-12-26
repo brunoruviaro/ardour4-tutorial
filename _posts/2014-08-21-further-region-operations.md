@@ -55,7 +55,7 @@ The **Pitch Shift** function alters the pitch of a region without
 changing its duration. The function applies a pitch-shifting algorithm 
 to create a new audio clip based on the source clip.
 
-The Pitch Shift window the user to specify the amount and direction of
+The Pitch Shift window allows the user to specify the amount and direction of
 transposition desired. The window includes a **Preserve Formants**
 button. When pitch shifting by large amounts, the Preserve Formants
 option can give results that sound slightly more natural, particularly
