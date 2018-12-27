@@ -17,7 +17,7 @@ Mix** where all the instruments can be heard clearly.
 
 **Levels**, **Panning**, **Equalization** (**EQ**), and **Compression** are the main
 tools used to achieve a good Mix. In addition to these core tools, a
-wide range of Plugin effects can also be used to enhance to sound, such
+wide range of Plugin effects can also be used to enhance the sound, such
 as **Reverb** and **Delay**.  
 
 ## Introducing the Mixer Strip
