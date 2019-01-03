@@ -36,7 +36,7 @@ menu with Range-specific operations.
 **Loop range**, for example, sets up **Loop Markers** around the current
 Range and begins looped playback. The **Loop Start** and **Loop End**
 points can be changed by moving the green triangles which correspond to
-the each point.
+each point.
 
 ![Range Loop]({{ site.url }}/images/Ardour4_Range_Loop.png) 
 
