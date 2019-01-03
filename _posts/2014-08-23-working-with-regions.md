@@ -165,7 +165,7 @@ Point.
 
 ## Trimming Regions
 
-If you move the cursor near the left or right side edge a Region, you will see that the pointer becomes an arrow. Click and drag
+If you move the cursor near the left or right side edge of a Region, you will see that the pointer becomes an arrow. Click and drag
 inwards from either end of the Region, and the Region will be shortened
 accordingly. This is called **Trimming** the Region. Regions can be
 trimmed from the start of the Region (drag from left to right at the
