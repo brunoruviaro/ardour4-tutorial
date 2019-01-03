@@ -16,7 +16,7 @@ Here, we take the short rhythmic passage we created in **Working with Regions**
 and duplicate it to make a loop.
 
 Before duplicating the passage, it is a good idea to combine individual
-regions in the same track into a single one: it easier to move them
+regions in the same track into a single one: it is easier to move them
 around this way, and it prevents you from accidentally moving a single
 hihat out of place, for example. There are two ways of doing this:
 **Combine Regions** (allows you to "uncombine" later on), and
