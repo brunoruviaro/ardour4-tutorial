@@ -158,7 +158,7 @@ of the strip. Clicking on either one will show you a menu of connection options.
 It is important to realize that any routings that you make or disconnect
 from within Ardour are in fact JACK routings, which you can see from
 other applications like Qjackctl, Catia, or JackPilot, depending on your
-Operational System. Below is an example of a Catia window (Linux only)
+Operating System. Below is an example of a Catia window (Linux only)
 displaying the same JACK connections discussed above:
 
 ![Catia]({{ site.url }}/images/Ardour4_Catia_Example.png) 
