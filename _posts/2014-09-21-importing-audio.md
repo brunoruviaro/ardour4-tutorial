@@ -94,7 +94,7 @@ Region will be inserted at the exact time point where you dropped it.
 
 Important: always make sure you are placing Stereo Regions on Stereo
 Tracks. If you drag a Stereo file onto a Mono Audio Track, only the left
-channel will used. In the screenshot below, a stereo file with very
+channel will be used. In the screenshot below, a stereo file with very
 distinct left and right channels was dragged onto a Stereo Track and a
 Mono Track. Notice that in the Mono Track only the left channel is
 displayed (and played back).  
