@@ -42,7 +42,7 @@ Interface** chapter. 
 
 In the**Editor Window**, you can see the Mixer Strip of the currently
 selected track on the left side of the window. If you don't see it, hit
-"*Control*" + "*E*" to display the Editor Mixer Strip.
+"*Shift*" + "*E*" to display the Editor Mixer Strip.
 
 ### Overview
 
