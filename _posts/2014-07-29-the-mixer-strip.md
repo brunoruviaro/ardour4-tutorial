@@ -40,7 +40,7 @@ Mixer Strip in the Editor Window, and vice-versa. The Editor Window and
 Mixer Window are more fully explained in the **An Overview of the
 Interface** chapter. 
 
-In the**Editor Window**, you can see the Mixer Strip of the currently
+In the **Editor Window**, you can see the Mixer Strip of the currently
 selected track on the left side of the window. If you don't see it, hit
 "*Shift*" + "*E*" to display the Editor Mixer Strip.
 
