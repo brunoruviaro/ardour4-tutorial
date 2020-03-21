@@ -1,4 +1,4 @@
-title:            Ardour 4
+title:            Ardour 5
 description:      An updated version of the original FLOSS manual.
 disqus_shortname: 
 reading_time:     true
@@ -11,7 +11,7 @@ url:              http://brunoruviaro.github.io/ardour4-tutorial
 
 # Owner/author information
 owner:
-  name:           Ardour 4 Tutorial
+  name:           Ardour 5 Tutorial
   avatar:         ardour-icon.png
   bio:            "An updated version of the original Ardour FLOSS Manual."
   email:          
