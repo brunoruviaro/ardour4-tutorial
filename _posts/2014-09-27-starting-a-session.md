@@ -27,37 +27,19 @@ Session folder to be stored.
 When you are ready, click '*Open*'. Ardour
 will create the new Session and then open it.
 
-![New Session]({{ site.url }}/images/Ardour4_Session_Setup_2.png)
+![New Session]({{ site.url }}/images/Ardour5_Session_Setup_2.png)
 
-Advanced Options
-----------------
-
-If you click the small triangle to access the *Advanced Options*, you
-will have finer control over the following options:
-
--   Whether or not to create a **Master Bus** (i.e. the final audio
-    output of the session), and how many channels it will have.
--   Whether or not to automatically connect inputs from the computer's
-    audio interface (the sound card) to Tracks in the session, and how
-    many channels to use.
--   Whether or not to automatically connect outputs to either Master Bus
-    or outputs of the audio interface, and how many channels to use. 
-
-![New Session Set-Up]({{ site.url }}/images/Ardour4_Session_Setup_3.png) 
-
-If you do not have JACK installed on your computer, or if it is installed but not running, you will see the following window before your session launches:
+Depending on the sound settings of your computer, you may see a window like this before your session launches:
 
 ![New Session Set-Up]({{ site.url }}/images/Ardour4_Session_Audio_MIDI_Setup.png)
 
 The main options are:
 
-**Audio System** - you can either choose JACK (if you have it installed), or your computer's default audio system (ALSA for Linux, CoreAudio for Mac).
+**Audio System** - probably your computer's default audio system (ALSA for Linux, CoreAudio for Mac, etc), or JACK if you are on Linux and have it installed.
 
 **Device** - it's either your built-in sound card, or an external sound card if you have one (such as a USB interface).
 
 **Sample Rate** - 48K or 44.1K are common choices.
-
-You will not have to deal with this window if you started JACK before starting Ardour.
 
 To create an Ardour session after Ardour has already started, select
 **Session** > **New** in the menu.
