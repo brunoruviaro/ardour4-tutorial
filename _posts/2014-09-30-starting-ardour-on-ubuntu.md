@@ -10,18 +10,6 @@ image:
   creditlink:  
 ---
 
-Simply click on the Ardour icon to start the program.
-
-On Ubuntu, you can find and launch software using the Dash. Tap the
-*"Super"* key (or *"Super" + "A"* to go directly to the Dash App Lens)
-and type Ardour. You can then click on the Ardour icon, or simply hit
-*Enter* when Ardour is the first search result:
-
-![Dash]({{ site.url }}/images/Ardour4_Ubuntu_Dash.png)
-
-Click on **Ardour-4** and the program will
-start.
-
 Once you have started Ardour, the **Session Setup** window shows up.
 
 ![New Session]({{ site.url }}/images/Ardour4_Session_Setup.png)
