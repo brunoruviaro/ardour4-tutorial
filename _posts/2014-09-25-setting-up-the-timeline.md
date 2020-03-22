@@ -37,10 +37,7 @@ advantage of having two transport clocks is that you see the playhead
 position in two different time units without having to change any
 settings.
 
-To the right of these two clocks you also see a set of 5 clocks that
-show the current selection range and punch ranges. Please refer to the
-[Ardour Manual](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/)
-for detailed information on clock displays. 
+To the right of these two clocks you see the "mini-timeline", also called "navigation timeline". Check the Ardour Manual for more informaion on [clocks](http://manual.ardour.org/ardours-interface/using-ardour-clock-displays/) and the [mini-timeline](https://manual.ardour.org/ardours-interface/mini-timeline/). 
 
 Snap Modes
 ----------
