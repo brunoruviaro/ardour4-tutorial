@@ -56,20 +56,17 @@ Adding Tracks and Busses
 ------------------------
 
 Right-Click in the empty area beneath any existing Tracks and Busses.
-Alternatively, click on the menu *Track > Add Track/Bus* (shortcut
+Alternatively, click on the menu *Track > Add Track, Bus, or VCA...* (shortcut
 "*Ctrl*" + "*Shift*" + "*N*"). The following window will appear:
 
-![Add Track]({{ site.url }}/images/Ardour4_Add_Track_or_Bus.png) 
+![Add Track]({{ site.url }}/images/Ardour5_Add_Track_or_Bus.png) 
 
 **Add** lets you specify how many Tracks (or Busses) you would to like
 to create.
 
-Choose **Audio Tracks** or **Busses** to specify whether you want to
-create Tracks or Busses. You can also choose to create a **MIDI Track**
-or an **Audio+MIDI Track**. Ardour offers three track types depending on
-the type of data they contain, and differentiates between three track
-modes, depending on their recording behaviour. This tutorial will only
-cover Audio Tracks and Busses (see the [Ardour
+Choose **Audio Tracks** or **Audio Busses** to specify whether you want to
+create Tracks or Busses. There are also other options such as **MIDI Track** and more. Ardour offers different track types depending on the type of data they contain. This tutorial will only
+cover Audio Tracks and Busses. (see the [Ardour
 Manual](http://manual.ardour.org/working-with-tracks/track-types/) for
 details on all track types) 
 
@@ -82,22 +79,13 @@ existing song and place it on this Track, choose **Stereo**. The choice
 made here will also affect which Plugins you can use on the track (Mono
 tracks cannot use Stereo Plugins and vice versa).
 
-The menu **Track Mode** gives you a choice between **Normal**,
-**Non Layered**, and **Tape**. Normal Mode creates a new Region for each
-Recording **Take**, and is suggested for beginners. For information on
-the other modes, check the [Ardour
-Manual](http://manual.ardour.org/working-with-tracks/track-types/).
-Additional information on the **Instrument** and **Group** options can
-be found on [this other page of the
+The **Position** menu lets you choose where you want the new track or bus to be placed: first, last, before or after the selection.
+
+You can safely ignore the other options for now. To learn more about each of them, please check [this page of the complete Ardour
 Manual](http://manual.ardour.org/working-with-tracks/adding-tracks-and-busses/).
 
-The **Group** option lets you add the new track to an existing Group, or create a new Group as you create the new track. If you are a beginner, you don't have to worry about Groups just now. For future reference, you can find more info on groups on the [Ardour Manual](http://manual.ardour.org/working-with-tracks/track-and-bus-groups/).
-
-The last option (**Insert**) lets you choose where you want the new track or bus to be placed: first, last, before or after the selection.
-
-Finally, click the **Add** button to create the Tracks or Busses you
-have just configured. You will see them appear as new rows in the **Main
-Canvas**.
+Click the **Add and Close** button to create the Tracks or Busses you
+have just configured, and automatically close the Add Track window. The tracks you just created will appear as new rows in the **Main Canvas**. If you still wanted to add more tracks after this step, you could alternatively have chosen **Add selected items (and leave dialog open)** instead. 
 
 Continuing
 ----------
