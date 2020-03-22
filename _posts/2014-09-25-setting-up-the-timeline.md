@@ -62,23 +62,19 @@ Timeline
 --------
 
 The **Timeline** is located below the Snap Mode menus, just above the
-Main Canvas. By Right-Clicking on it, you can set the check boxes to
-display the different types of time information.
+Main Canvas. By Right-Clicking on the Timeline labels (i.e., right-click on the left-side area where the words "Timecode, Bar:Beats, Meter" etc are displayed), you can set the check boxes to show or hide the different types of time information.
 
 ![Timeline]({{ site.url }}/images/Ardour4_Overview_Rulers.png)
 
 ### Minutes/Seconds
 
-To view Minutes and Seconds on the Timeline, right-click the Timeline
-and select **Min:Sec**. You will be able to set the Grid to
-either *Seconds* or *Minutes*.
+To view Minutes and Seconds on the Timeline, right-click the Timeline labels
+and select **Mins:Secs**.
 
 ### Bars/Beats
 
 To view Bars and Beats on the Timeline, right-click the Timeline and
-select **Bars & Beats**. You will be able to set the Grid to either
-*Bars*, *Beats* or a convenient multiple of beats, such as 3, 4, 8, 16
-or 32.
+select **Bars & Beats**.
 
 It is possible to set a **Meter** and **Tempo** for the entire Ardour
 session, as well as to change them at different points in the same
@@ -95,9 +91,7 @@ Session Properties window (menu *Session > Properties* or shortcut
 ![Timecode]({{ site.url }}/images/Ardour4_Timecode.png) 
 
 Once you have done that, make sure you make the Timecode ruler visible
-by right-clicking in the Timeline and checking the *Timecode* box. You
-will be able to set the Grid to *SMPTE Frames*, *SMPTE Seconds* and
-*SMPTE Minutes*.
+by right-clicking in the Timeline and checking the *Timecode* box.
 
 Continuing
 ----------
