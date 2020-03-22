@@ -19,9 +19,8 @@ outside source.
 
 A Region represents an audio clip, i.e., one of your
 sound files or just a portion of a sound file. In the image below, the
-horizontal strip areas marked "*Audio 1*" and "*Audio 2*" are Tracks.
-The rectangle containing audio information (named "*some-sound*") inside
-track *Audio 1* is called a Region. 
+horizontal strip areas marked "*MyTrack*" and "*short-drone-mono*" are Tracks.
+The rectangles containing audio information is called a Region (for example, "*wheels-mono.1*" contained in *MyTrack*). 
 
 ![Tracks]({{ site.url }}/images/Ardour4_Tracks.png) 
 
