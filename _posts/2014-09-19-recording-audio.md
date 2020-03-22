@@ -65,6 +65,8 @@ then see two green dots, one for capture_1 and another for capture_2.
 
 ### Arming the Track
 
+*Please be sure to first turn down the volume of your loudspeakers before the next step.*
+
 "Arming the Track" is simply to get it ready for recording. Once you
 have checked that the proper capture inputs have been routed to the
 Track, you can arm the Track to record by clicking on the small red icon
@@ -77,6 +79,8 @@ When properly armed, the small red icon will remain
 highlighted, and you will be able to see the incoming signal by looking
 at the **Peak** **Meter** on the Editor Mixer or on the horizontal Track
 strip.
+
+If you are using headphones, you should be able to hear ("monitor") the sounds being recorded. If you are using loudspeakers, be sure to turn their volume down to avoid feedback.
 
 > Note: unless you have told Ardour to do otherwise, the input being
 recorded will be monitored (in other words, heard) via
