@@ -29,7 +29,7 @@ What is a Bus?
 
 A **Bus** is similar to a track except that it does not contain its own
 regions. You cannot record directly into a bus or drag regions into it.
-In the image above, the area marked "*master*" is a Bus. Usually every
+The area marked "*Master*" in your session is an example of a Bus. Typically every
 session has a **Master Bus**. All the audio to be **Exported**  from
 your Session will be sent to the Master Bus.
 
