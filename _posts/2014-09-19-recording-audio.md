@@ -37,7 +37,7 @@ edit the Routing.
 
 In the next image you can see that the only input of this Mono Track is
 receiving signal from *system capture_1*. This normally means the first
-microphone input of your soundcard. 
+microphone input of your soundcard. The actual names of the connections on your personal computer may be different depending on a number of factors, including whether you are using a Mac, Windows, or Linux computer. If you don't see a connection named *system capture_1*, look for whichever connection name is likely to be your input microphone. 
 
 ![Audio 1 input]({{ site.url }}/images/Ardour4_Audio_1_input.png) 
 
@@ -49,13 +49,11 @@ The **Ardour** tabs show the connections that can be made from other
 sources within Ardour. The **Other** tab displays audio connections
 available from software other than Ardour. The **Hardware** tab shows
 hardware connections (for example, the built-in microphone of your
-computer or the inputs from your sound card). In all cases, this Routing
-matrix communicates directly with JACK to change the Routing in the JACK
-system itself. This will be explained in more detail in the
+computer or the inputs from your sound card). This will be explained in more detail in the
 **Understanding Routing** chapter. 
 
 For the purpose of this chapter, simply make sure that system capture_1
-(from Hardware tab) is connected to the Audio 1 track so that we can do
+(or equivalent in your computer) from Hardware tab is connected to the track you want to use so that we can do
 a test recording. If you don't see a green dot as in the screenshot
 above, click on the matrix to make the connection manually. You can now
 close this window.
