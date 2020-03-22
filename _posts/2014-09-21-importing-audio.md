@@ -15,36 +15,25 @@ entire sound file or a portion of it. Here you will learn how to import
 audio files from the hard drive of your computer so they can be used in
 your Ardour session.
 
-To import an audio file, first Right-Click on the **Region List**,
-located at the far right of the editor window. If you don't see it, make
-sure "*Show Editor List*" is checked under the "*View*" menu. Once you
-see the Editor List, please note there are other tabs which change the
-function of this area. Before you Right-Click, make sure the **Regions**
-tab is selected.
+To import an audio file into your session, you will use the the *Add existing media* dialog. Use the shortcut "*Ctrl*" + "*I*" to get to this window, or alternatively go to menu "*Session > Import*").
 
-![Editor List]({{ site.url }}/images/Ardour4_RegionList_EditorList.png) 
-
-Once you have Right-Clicked, a menu will appear with the option to
-*Import to Region List*. Click this option.
-
-![Region List]({{ site.url }}/images/Ardour4_Import_To_Region_List.png) 
-
-You will now see the *Add existing media* dialog (note: a shortcut to
-get to this window is "*Ctrl*" + "*I*"). On the left side of this dialog
+On the left side of this dialog
 you will see a file browser which allows you to search your hard drive
 for appropriate sound files to add (preferably, start with a common file
 format, such as WAV or AIFF). At the lower left corner there is a menu
 which indicates how these files will be added. "*Add files as new
 tracks*" will import audio files and place them on a newly created
 track. "*Add files to region list*" will simply import audio files into
-the Region List, without creating any new tracks. Choose this option
-now, as we don't want Ardour to create any tracks at this point.
+the Region List, without creating any new tracks. **Choose this option
+now**, as we don't want Ardour to create any tracks at this point.
 
-![Add Media]({{ site.url }}/images/Ardour4_Add_Existing_Media.png) 
+![Add Media]({{ site.url }}/images/Ardour5_Add_Existing_Media.png) 
+
+![Add Media]({{ site.url }}/images/Ardour5_Add_Files_To_Region_List.png) 
 
 > TIP: if you do not have any suitable audio files on your hard drive to
-follow these steps, click on the "Search Freesound" tab (or visit
-[freesound.org](http://www.freesound.org/)), from where you can find a
+follow these steps, visit
+[freesound.org](http://www.freesound.org/)), where you can find a
 large collection of Public Domain and Creative Commons–licensed samples in a variety of
 Sample Rates and Formats.
 
@@ -54,40 +43,37 @@ Here you will see the name, number of channels, sample rate, format and
 length of the sound file, along with any tags you have chosen to add to
 the file.
 
-The **Play** button allows you to preview the file, using the Audition
-bus. Finally, this dialog gives you the option of copying the file(s)
-into the folder of the current session (**Copy Files to Session**). This
-is safer, but it uses more disk space. If you leave this option
-unchecked, Ardour will use the sound file from its current location on
+The **Play** button allows you to preview the file. You can also select **Auto-play** if you would like to hear a sound file immediately as soon as you click on it in the file browser (without having to push the Play button).
+
+You will notice that the option **Copy Files to Session** is checked by default. This will make a copy of the imported file(s) into the folder of the current session (). This
+is safer, but it uses more disk space. If you
+uncheck this option (not recommended!), Ardour will use the sound file from its current location on
 the hard drive. In this case, if the file is moved to a new location on
-the hard drive, you may run into trouble, because Ardour won't be able
+the hard drive, you will run into trouble, because Ardour won't be able
 to find it the next time you open this session. **It is highly recommend
 that you leave this box checked ("Copy files to session")**. 
 
-Click **OK** to proceed. The file(s) you have selected will appear
-listed in your Region List.
+Click **OK** to proceed.
 
-> TIP: if the sample rate of the file you have chosen does not match the
-sample rate of the current session, Ardour colours the mismatched sample
-rate in red. If you try to import the file, Ardour will also warn you of
-the mismatched rate and ask you to confirm if you want to embed it
-anyway. If you do choose to embed the file in question, it will not play
-back at the sample rate it was recorded with, but rather at the sample
-rate of the current Ardour session. This will cause the sound to play at
-the wrong speed and pitch.
+> TIP: The file(s) you have imported will appear listed in your Region List. The Region List is located at the far right of the editor window. If you don't see it, make sure "*Show Editor List*" is checked under the "*View*" menu.
 
-Once you have successfully embedded your audio file in the Region List,
-you will see it on the screen. In the screenshot below, three files were imported: "*toaster\_8*", "*short-drone-mono*", and "*wheels-mono*". The number \[2\] right after "*toaster\_8*" indicates it is a stereo file. 
+? TIP: An alternative method to access the **Add Existing Media** window is actually to Right-Click directly on the **Region List**. Once you see the Editor List, please note there are other tabs which change the function of this area. Before you Right-Click, make sure the **Regions** tab is selected. Once you have Right-Clicked, choose *Import to Region List* to open the same **Add Existing Media** dialog box that you have seen before.
+
+![Editor List]({{ site.url }}/images/Ardour4_RegionList_EditorList.png) 
+
+![Region List]({{ site.url }}/images/Ardour4_Import_To_Region_List.png) 
+
+Once you have successfully embedded your audio files in the Region List, they should all be listed there. In the screenshot below, three files were imported: "*toaster\_8*", "*short-drone-mono*", and "*wheels-mono*". The number \[2\] right after "*toaster\_8*" indicates it is a stereo file. the other without the \[2\] are mono files.
 
 ![Toaster]({{ site.url }}/images/Ardour4_Region_List_Stereo_File.png) 
 
-By dragging and dropping the Region onto the Main Canvas, you can insert
-it in an existing track.
+By dragging and dropping an audio file listed on the Region List onto the Main Canvas, you can insert
+it in an existing track. If you drag it into an existing track, it will be added there. If you drag onto the empty space beneath existing tracks, a new track will be automatically created to accommodate it.
 
 > TIP: if you click in the middle of the
 word when the region name is highlighted in blue, Ardour thinks you are trying to rename the Region (the name will
 become editable). In order to click and drag a highlighted region from the list, you need to point and
-click right before or after the name. 
+click in the empty space right before or after the name. 
 
 Release the mouse-click to complete the drag-and-drop operation. The
 Region will be inserted at the exact time point where you dropped it.
@@ -109,13 +95,15 @@ to import audio files directly onto tracks.
 
 Choose **Add files: as new tracks** in order to automatically create
 a new track and add the selected file to it. The track will be named
-after the sound file name. 
+after the sound file name.
 
 ![Add as New Tracks]({{ site.url }}/images/Ardour4_Add_As_New_Track.png) 
 
 If you have previously selected one or more tracks, the menu will display the
 additional option **Add files: to selected tracks** in order to add a sound
-file into the already existing selected track. 
+file into the already existing selected track.
+
+When adding files as new tracks, note that the **Mapping** options lets you choose between **one track per channel** or **one track per file**. For the purpose of this tutorial, choose **one track per file**, otherwise the left and right channels of a Stereo file will be split into two separate tracks.
 
 #### Choose Insert Point
 
