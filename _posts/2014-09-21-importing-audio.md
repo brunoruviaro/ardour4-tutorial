@@ -45,7 +45,7 @@ the file.
 
 The **Play** button allows you to preview the file. You can also select **Auto-play** if you would like to hear a sound file immediately as soon as you click on it in the file browser (without having to push the Play button).
 
-You will notice that the option **Copy Files to Session** is checked by default. This will make a copy of the imported file(s) into the folder of the current session (). This
+You will notice that the option **Copy Files to Session** is checked by default. This will make a copy of the imported file(s) into the folder of the current session. This
 is safer, but it uses more disk space. If you
 uncheck this option (not recommended!), Ardour will use the sound file from its current location on
 the hard drive. In this case, if the file is moved to a new location on
