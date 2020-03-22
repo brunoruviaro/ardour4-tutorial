@@ -63,7 +63,7 @@ Click **OK** to proceed.
 
 ![Region List]({{ site.url }}/images/Ardour4_Import_To_Region_List.png) 
 
-Once you have successfully embedded your audio files in the Region List, they should all be listed there. In the screenshot below, three files were imported: "*toaster\_8*", "*short-drone-mono*", and "*wheels-mono*". The number \[2\] right after "*toaster\_8*" indicates it is a stereo file. the other without the \[2\] are mono files.
+Once you have successfully embedded your audio files in the Region List, they should all be listed there. In the screenshot below, three files were imported: "*toaster\_8*", "*short-drone-mono*", and "*wheels-mono*". The number \[2\] right after "*toaster\_8*" indicates it is a stereo file. The other files without the number \[2\] are mono files.
 
 ![Toaster]({{ site.url }}/images/Ardour4_Region_List_Stereo_File.png) 
 
