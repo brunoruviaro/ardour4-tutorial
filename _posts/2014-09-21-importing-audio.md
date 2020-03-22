@@ -57,7 +57,7 @@ Click **OK** to proceed.
 
 > TIP: The file(s) you have imported will appear listed in your Region List. The Region List is located at the far right of the editor window. If you don't see it, make sure "*Show Editor List*" is checked under the "*View*" menu.
 
-? TIP: An alternative method to access the **Add Existing Media** window is actually to Right-Click directly on the **Region List**. Once you see the Editor List, please note there are other tabs which change the function of this area. Before you Right-Click, make sure the **Regions** tab is selected. Once you have Right-Clicked, choose *Import to Region List* to open the same **Add Existing Media** dialog box that you have seen before.
+> TIP: An alternative method to access the **Add Existing Media** window is actually to Right-Click directly on the **Region List**. Once you see the Editor List, please note there are other tabs which change the function of this area. Before you Right-Click, make sure the **Regions** tab is selected. Once you have Right-Clicked, choose *Import to Region List* to open the same **Add Existing Media** dialog box that you have seen before.
 
 ![Editor List]({{ site.url }}/images/Ardour4_RegionList_EditorList.png) 
 
