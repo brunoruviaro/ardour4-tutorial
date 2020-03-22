@@ -33,8 +33,7 @@ track you wish to record to.
 edit the Routing.
 5. Click on that button to investigate the Routing.
 
-> TIP: If you don't see the Editor Mixer strip, use the shortcut "*Ctrl*" + "*E*" to make it appear.
-
+> TIP: If you don't see the Editor Mixer strip, use the shortcut "*Shift*" + "*E*" to make it appear.
 
 In the next image you can see that the only input of this Mono Track is
 receiving signal from *system capture_1*. This normally means the first
