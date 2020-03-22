@@ -70,13 +70,12 @@ Once you have successfully embedded your audio files in the Region List, they sh
 By dragging and dropping an audio file listed on the Region List onto the Main Canvas, you can insert
 it in an existing track. If you drag it into an existing track, it will be added there. If you drag onto the empty space beneath existing tracks, a new track will be automatically created to accommodate it.
 
-> TIP: if you click in the middle of the
-word when the region name is highlighted in blue, Ardour thinks you are trying to rename the Region (the name will
-become editable). In order to click and drag a highlighted region from the list, you need to point and
-click in the empty space right before or after the name. 
-
 Release the mouse-click to complete the drag-and-drop operation. The
 Region will be inserted at the exact time point where you dropped it.
+
+> TIP: if a sound file is selected in the Editor List (i.e., if it is highlighted in blue), the next time you click on that file name Ardour will think you are trying to rename the Region (the name will
+become editable). More likely you were just trying to click to drag and drop the file onto a track. In order to click and drag a previously **highlighted** region from the list, you need to point and
+click in the empty space right before or after the name.
 
 Important: always make sure you are placing Stereo Regions on Stereo
 Tracks. If you drag a Stereo file onto a Mono Audio Track, only the left
