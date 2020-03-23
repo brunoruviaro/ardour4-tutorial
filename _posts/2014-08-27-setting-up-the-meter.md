@@ -13,7 +13,7 @@ image:
 The **Meter** determines the musical speed of the passage we are
 composing, as measured in **Beats Per Minute**.
 
-If we are composing something which is rhythmic, it will also determine the lengths of the
+If we are composing something rhythmic, it will also determine the lengths of the
 sound samples we use to some extent. So it is important to be able to
 set up the Meter before we continue.
 
@@ -24,18 +24,15 @@ anywhere in the "header" of the Rulers and check the following options: **Meter*
 
 It is possible to set a **Meter** and **Tempo** for the entire Ardour
 session, as well as to change them at different points in the same
-session. In order to do this, locate the Meter section of the **Timeline
-Bar** in the Editor Window, and right-click on the first small red mark
-to open the **Meter Dialog**.
-
-![Meter dialog]({{ site.url }}/images/Ardour4_Edit_Meter_dialog.png) 
-
-Here you can enter new values for the **Beats Per Bar** as well as the
-**Note Value**. Click "*Apply*" to apply the changes globally to your
 session.
 
-Then, locate the first red mark in the **Tempo** section, right-click on
-it, and choose the BPM (**Beats Per Minute**) for your session.
+To change the meter and tempo for the entire session, use the corresponding buttons located right under the secondary clock:
+
+![Tempo_and_Meter]({{ site.url }}/images/Ardour5_Edit_Meter_and_Tempo.png) 
+
+For the **Meter** (the letters "TS" on the button mean "Time Signature"), you can enter new values for the **Beats Per Bar** as well as the **Note Value**. Click "*Apply*" to apply the changes globally to your session.
+
+For the **Tempo**, choose the number of BPM (**Beats Per Minute**) for your session.
 
 If the Meter or Tempo of your session changes later in the song or
 composition, simply add a new marker by right-clicking in the Meter or
