@@ -26,24 +26,12 @@ The first step is to add some sounds, which is discussed at length in
 the **Importing Audio** chapter. Here, we are using the **Add existing
 media** dialog ("*Ctrl*" + "*I*") to import some drumkit samples as
 regions. The samples used in this tutorial were obtained from a sample
-pack from the [freesound.org](http://www.freesound.org/) website. You
-can download samples from freesound.org by going to the website itself,
-but Ardour also has a handy **Search Freesound** feature built into the import
-window. From there, you can search and download Freesound.org samples
-directly.
+pack from the [freesound.org](http://www.freesound.org/) website (Nord Drum Mini Kit sample pack, which you can download [here](https://freesound.org/people/menegass/packs/10430/)).
 
-![Freesound]({{ site.url }}/images/Ardour4_Freesound.png) 
-
-In the screenshot above, we searched for "*Nord Drum BD*" using the
-**Search Freesound** feature of Ardour. Note that we specify that the
-audio file should be added "*as new tracks*" and inserted "*at session
-start*" (menu options at the lower left). The drumkit sample will appear
-as new individual track in the Editor Window, each with the name of the
+After importing a few sounds from the downloaded sample pack (bass drum, snare, hi-hat, clap),
+our session looks like this (in this case I used the "*Add files as new tracks*" option, and inserted "*at session
+start*". The drumkit samples appear as new individual tracks in the Editor Window, each with the name of the
 audio file used. 
-
-After importing a few more sounds (one snare, one hi-hat, and one clap),
-our session looks like this (track names come from the original sample
-name from freesound.org):
 
 ![FS2]({{ site.url }}/images/Ardour4_Freesound_2.png) 
 
