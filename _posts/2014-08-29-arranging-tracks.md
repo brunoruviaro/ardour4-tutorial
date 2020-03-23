@@ -31,7 +31,7 @@ pack from the [freesound.org](http://www.freesound.org/) website (Nord Drum Mini
 After importing a few sounds from the downloaded sample pack (bass drum, snare, hi-hat, clap),
 our session looks like this (in this case I used the "*Add files as new tracks*" option, and inserted "*at session
 start*". The drumkit samples appear as new individual tracks in the Editor Window, each with the name of the
-audio file used. 
+audio file used. If the file names are too long or obscure, you may want to rename your tracks for clarity.
 
 ![FS2]({{ site.url }}/images/Ardour4_Freesound_2.png) 
 
