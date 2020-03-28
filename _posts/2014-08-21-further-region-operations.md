@@ -62,7 +62,7 @@ when used on vocal material.
 
 ## Normalize
 
-The **Normalize** function (shortcut *"Alt" + "3"* non-destructively boosts the level of the 
+The **Normalize** function (shortcut *"Alt" + "3"*) non-destructively boosts the level of the 
 selected Region so that the **Peaks** are at 0 dB or less. When Normalizing 
 to 0.0, the region will be as loud as possible while avoiding **Clipping**. 
 Sometimes you may find useful to normalize a region to a value less than 0, 
@@ -86,7 +86,7 @@ them (for example, Normalize, Reverse, etc.)
 ### Combine
 
 Some operations from the context menu will only become available when
-two or more regions are selected. For example, take a look at the
+two or more regions are selected. For example, let's take a look at the
 "Combine" function, under the sub-menu "Edit". First we select two
 adjacent regions:
 
