@@ -36,13 +36,13 @@ This Cursor Mode allows you to select or move objects such as regions
 and breakpoints (in an automation curve). When this Cursor Mode is
 selected, your cursor pointer will look like a little hand icon.
 
-### Range (shortcut "*R*")
+### Range Mode (shortcut "*R*")
 
 ![R]({{ site.url }}/images/Ardour4_EditModes_R.png)
 
-This Cursor Mode allows you to click and drag to define or resize
+This Cursor Mode allows you to click and drag to define or resize time
 Ranges.  When this Cursor Mode is selected, your cursor pointer will
-look like a vertical line.
+look like a vertical line. Time ranges can be selected over one or several tracks, depending on the selection of your tracks.
 
 ### **Cut Mode** (shortcut *"C"*)
 
@@ -82,7 +82,7 @@ You can also *edit* individual points in this mode if you bring your cursor righ
 
 ![D]({{ site.url }}/images/Ardour4_EditModes_D.png)
 
-### **Edit Mode (shortcut E)**
+### **Internal Edit Mode (shortcut E)**
 
 Use this mode to edit existing gain automation points. Cursor looks like a hand, and turns into a small cross when you are on top of an existing point. Click (hold the click down) and drag in order to move points.
 
@@ -91,7 +91,7 @@ Use this mode to edit existing gain automation points. Cursor looks like a hand,
 
 ### MIDI
 
-The last two buttons explained above are also used to create and edit MIDI information, but we are not covering MIDI in this tutorial.
+The last two buttons explained above are also used to create and edit MIDI information.
 
 
 ### Horizontal Zoom and view options
