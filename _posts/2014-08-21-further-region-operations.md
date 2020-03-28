@@ -33,12 +33,9 @@ accessible from these menus.
     The **Lock** toggle box: it locks the Region so that it cannot be
     Moved or Trimmed. It can still be Split, however, and the resulting
     Regions will be unlocked.
--   **Edit**: in this sub-menu you find useful tools such as
-    **Mute**, **Pitch Shift** and **Reverse**. Mute renders the region 
-    silent. Pitch Shift alters the pitch of a region without changing 
-    its duration. Reverse makes the region play backwards.
--   **Gain**: useful options such as **Normalize**, **Boost Gain**, and **Cut Gain**.
--   **Duplicate**: includes Duplicate, Multi-Duplicate, and Fill Track.
+-   **Edit**: in this sub-menu you find useful tools such as **Pitch Shift** (shortcut "*Alt + 8*") and **Reverse** (shortcut "*Alt + 4*"). Pitch Shift alters the pitch of a region without changing its duration. Reverse makes the region play backwards.
+-   **Gain**: useful options such as **Mute** (shortcut "*Alt + 1*), **Normalize** (shortcut "*Alt + 3*"), **Boost Gain** (shortcut "*Alt + 6*"), and **Cut Gain** (shortcut "*Alt + 7*").
+-   **Duplicate**: includes Duplicate (shortcut "*Alt + D*"), Multi-Duplicate, and Fill Track.
     These were explained in detail in the chapter [Working with
     Regions](../working-with-regions). 
 -   **Spectral Analysis**: window displaying the overall frequency
@@ -51,7 +48,7 @@ useful functions.
 
 ## Pitch Shifting
 
-The **Pitch Shift** function alters the pitch of a region without 
+The **Pitch Shift** (shortcut "*Alt + 8*") function alters the pitch of a region without 
 changing its duration. The function applies a pitch-shifting algorithm 
 to create a new audio clip based on the source clip.
 
@@ -77,7 +74,7 @@ Two other useful gain operations for regions are Boost Gain (*"Alt" + "6"*), and
 
 ## Reverse
 
-The **Reverse** function reverses the selected region of audio, in 
+The **Reverse** (shortcut "*Alt + 4*") function reverses the selected region of audio, in 
 effect causing it to play backwards. Reversing a region creates a 
 new audio file 'behind the scenes'.
 
