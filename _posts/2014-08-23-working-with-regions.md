@@ -38,9 +38,13 @@ Try all of the operations below, for practice:
 -   Use "*Control*" + "*Click*" to create and drag around a *copy* of
     the region.
 
--   You can select multiple regions by holding the "*Shift*" key while
-    selecting.
+-   You can select multiple regions by holding the "*Shift*" key while clicking on each region you want to select.
     
+-   You can also drag a selection box over multiple Regions to select
+    them all.
+
+![object selection]({{ site.url }}/images/Ardour4_Object_Selection.png) 
+
 -   Move multiple regions at the same time after selecting them. 
 
 -   You can select several sequential regions on one track all at once
@@ -51,21 +55,18 @@ Try all of the operations below, for practice:
 -   When you select a single Region, make sure to click on the Waveform
     section of its rectangle. The lower stripe with the Region name is
     used for a different action (see **Trimming Regions** below).
+    
 -   Use the "Del" key to delete selected regions.
+
 -   Standard copy ("*Control*" + "*C*"), cut ("*Control*" + "X"), and
     paste ("*Control*" + "V") operations also work with regions. 
-
--   You can also drag a selection box over multiple Regions to select
-    them all.
-
-![object selection]({{ site.url }}/images/Ardour4_Object_Selection.png) 
 
 ## Moving Regions
 
 While moving a Region, a **Timecode** will appear on the screen in
 yellow numbers. This Timecode is the Region's starting point on the
 **Timeline**. The unit of this timecode is the same as the unit of the
-Second Clock, which you can change by right-clicking on the Second Clock
+First Clock, which you can change by right-clicking on the Second Clock
 and choosing a new unit (Minutes:Seconds, Bar:Beats, etc).
 
 You can move Regions horizontally (sideways) to a different point in
@@ -82,8 +83,8 @@ selecting the bottom title bar area is used for a different action (see
 ## Duplicating Regions
 
 In addition to "*Control*" + "*Click*" + *drag* and standard copy/paste,
-Ardour offers other handy ways to duplicate regions. Use the Select/Move
-Objects tool to select one or more Regions, and use the **Duplicate**
+Ardour offers other handy ways to duplicate regions. Use the Grab Mode (Select/Move
+Objects) to select one or more Regions, then use the **Duplicate**
 function to make one or more copies (menu *Regions > Duplicate*).
 Three options are available:
 
@@ -161,12 +162,16 @@ them separately.
 ![Split]({{ site.url }}/images/Ardour4_Split_Region_Moved.png)
 
 Regions can also be split by using the Playhead or a Marker as the Edit
-Point.
+Point. 
+
+Split Regions will receive a name derived from the original name of its parent Region, and you will see
+this reflected in your Region List. For example, in the image above, you see two regions called pink.15 and pink.16, which means there were split from a parent Region called "pink" (not shown in image).
+
+>TIP: Splitting ranges will follow your Grid settings. For example, if you have an active Grid set for Bars, splits will happen at the bar boundaries. If you choose "No Grid", splits will happen wherever the Edit point is, regardless of any Grid.
 
 ## Trimming Regions
 
-If you move the cursor near the left or right side edge of a Region, you will see that the pointer becomes an arrow. Click and drag
-inwards from either end of the Region, and the Region will be shortened
+If you move the cursor near the left or right side edge of a Region, you will see that the pointer becomes an arrow. Click and drag inwards from either end of the Region, and the Region will be shortened
 accordingly. This is called **Trimming** the Region. Regions can be
 trimmed from the start of the Region (drag from left to right at the
 edge) or from the end (drag from right to left).
@@ -175,15 +180,11 @@ This action is non-destructive: no audio is actually being deleted. It
 is as if you were just "hiding" those portions of the Region that you
 don't want or don't need anymore. Later on, you can "un-trim" the Region
 (i.e., extend it back to its original full size), even if it has been
-moved or copied to a new Track. A trimmed Region will receive a name
-derived from the original name of its parent Region, and you will see
-this reflected in your Region List. For example, in the images above, a
-single original region named sample\_01 has its trimmed versions named
-as sample\_01.1, sample\_01.2, (...) sample\_01.15, and so forth.
+moved or copied to a new Track.
 
 ![Trim]({{ site.url }}/images/Ardour4_Trimming_Regions.gif)
 
-> TIP: Trimming will obey **Grid** settings. If you don't want your
+> TIP: Like Splitting, Trimming will obey **Grid** settings. If you don't want your
 trimming to be constrained to any grid, simply turn the grid off (**No
 Grid**).
 
@@ -201,7 +202,7 @@ starts or as it ends. A Fade at the start of the Region is a **Fade
 In**, and at the end of a Region it is a **Fade Out**. Each Region has
 two small handles along the top corners, which can be dragged inwards
 from either edge to create a Fade In or Fade Out. The screenshot below
-shows a Fade In (indicated by the shaded blue area). 
+shows a Fade In (indicated by the shaded area). 
 
 ![Fades1]({{ site.url }}/images/Ardour4_Fades_1.png) 
 
@@ -211,7 +212,7 @@ transitions at the start and end of the region. By adjusting the regions
 fade length as shown above, a more gradual transition can be
 accomplished.
 
-By right-clicking on one of the Fade (the shaded blue area), the speed
+By right-clicking on one of the Fades (the shaded area), the speed
 of the Fade can also be adjusted.
 
 ![Fade Options]({{ site.url }}/images/Ardour4_Fade_Options.png) 
