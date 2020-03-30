@@ -31,10 +31,10 @@ current position.
 
 ## Time-Stretching a Region to Fit the Loop
 
-In this tutorial, we've added another sound sample—this time, a
+In the image below, we've added another sound sample—this time, a
 synthesizer line—from [freesound.org](http://www.freesound.org) to the
 rhythmic passage we composed in the **Creating Looped Sections** chapter
-(search for tag "1168" in the **Search Freesound** tab of Ardour if
+(search for "1168 so synth" in the **Search Freesound** tab of Ardour if
 you'd like to get the same sample. Import it as a new track).
 
 After importing this synth line, we see that the length of our new
