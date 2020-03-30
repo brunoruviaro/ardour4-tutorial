@@ -97,7 +97,7 @@ controls the level of the signal coming out of the Plugin. Post-Fader
 Plugins are inserted *after* the Fader: the Fader controls the level of
 the signal going into the Plugin. For some Plugins, Pre- or Post-fader
 placement does not matter. For others, the difference is subtle. For
-others still, inserting them in the right place is absolutely essential.
+others still, inserting them in the right place is absolutely essential (for more details, see for example [this thread](https://discourse.ardour.org/t/fader-before-or-after-plugins/100666) at the Ardour discussion forum).
 
 ## Plugin Formats
 
