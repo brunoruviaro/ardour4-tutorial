@@ -32,11 +32,11 @@ arbitrary, and there is no limit to how many there can be.
 The main space shown in the screenshot above is the **Processor Box**.
 The blue box Fader is in fact a **Processor** that comes by default
 inside the Processor Box. It represents the Fader that you use to
-control the Track's volume. All Processors are shown as coloured
+control the Track's volume. All Processors are shown as colored
 rectangles, with a small "LED" beside them that lights up when the
 processor is enabled. The colour of the processor depends on its
-location in the sequence; processors that are pre-fader are coloured in
-red, and post-fader processors are coloured green. 
+location in the sequence; processors that are pre-fader are colored in
+red, and post-fader processors are colored green. 
 
 ## Adding a Plugin to a Track or a Bus 
 
