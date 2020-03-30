@@ -39,7 +39,7 @@ Here's the overview of how we will do this:
 
 ## Creating the Bus and adding a Plugin
 
-Create a Bus (menu *Track > Add Track or Bus*), name it appropriately, and add a
+Create a Bus (menu *Track > Add Track, Bus, or VCA...*), name it appropriately, and add a
 Plugin in the Pre-Fader Region (right-click just above the Fader blue
 rectangle in the Processor Box), as discussed in the chapter **Using
 Plugins**.
@@ -80,9 +80,11 @@ inputs.
 
 Like Plugins, Sends are also created in the Processor Box. Go to each of
 your drum tracks, right-click in empty space of the Processor Box, and create a *New Aux
-Send* directed to the appropriate Bus (in our case, named DRUMS). 
+Send...* directed to the appropriate Bus (in our case, named DRUMS).
 
 ![sends4]({{ site.url }}/images/Ardour4_Sends_4.png) 
+
+> TIP: If you do *not* see the "*New Aux Sends...*" option in the menu, it's probably because you did not create any bus yet. Go back to the previous step to create the bus.
 
 You should now see the Send displayed in the Processor Box:
 
