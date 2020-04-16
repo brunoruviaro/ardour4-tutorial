@@ -112,9 +112,7 @@ There are several ways ways of adjusting Automation Points, depending on the edi
 
 * An Automation Point can be dragged in any direction with the mouse (works in Grab, Draw, and Edit modes).
 
-* To remove an Automation Point, hold down the "*Shift*" key while Right-Clicking on it (works in Grab, Draw, and Edit modes). 
-
-* "*Control*" + *click* + *drag* moves the current point in any direction, and also all subsequent points horizontally only (works in Grab, Draw, and Edit modes).
+* To remove an Automation Point, hold down the "*Shift*" key while Right-Clicking on it (works in Grab, Draw, and Edit modes).
 
 * Edit Mode only: any segment of the Automation Line between Automation Points may be dragged vertically, affecting both end points at once, without affecting their horizontal position. Simply click somewhere on the line between two points, and drag up and down.
 
